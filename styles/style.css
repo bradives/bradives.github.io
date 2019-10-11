@@ -1,3 +1,7 @@
+body {
+    background: rgb(63,69,187);
+    background: radial-gradient(circle, rgba(63,69,187,1) 0%, rgba(148,187,233,1) 100%); }
+
 p, li {
     color: darkslategray;
 }
