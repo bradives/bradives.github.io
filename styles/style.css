@@ -8,14 +8,15 @@ p, li {color: #383839;}
 
 li { line-height: 1.5;}
 
-a:link { color: #a6ff00; }
+a:link { color: #006aff; }
 
-a:visited { color: #009900; }
+a:visited { color: #6e00fd; }
 
 a:hover { color: #000000; background-color: #c1f0cd; text-decoration: none; } 
 
 a:active { color: #c1f0cd; background-color: #000000; text-decoration: none; }
 
-header { background-color:   #3cba54	; border-bottom: .3rem red;}
+header { background-color:   #3cba54;}
 header > h1 { line-height: 2.0rem; font-size: 50px; text-align: left; color: #2c5da3; padding: 2%;}
+header > h1 {border-bottom: .3rem solid rgb(166, 255, 0);}
 main {max-width: auto;}
