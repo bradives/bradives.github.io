@@ -389,7 +389,7 @@ a:hover {
 }
 
 a:active {
-  color: black
+  color: black;
   background-color: #000000;
   text-decoration: none;
 }
@@ -410,7 +410,7 @@ header > h1 {
   border-bottom: 0.3rem solid #FFD700;
 }
 main {
-max-width: auto;
+max-width: 1400px;
 }
 .header {
   background-color: #3cba54;
