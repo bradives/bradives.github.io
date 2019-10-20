@@ -18,6 +18,15 @@
           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         </style>
+        <style>
+        .about-pictures {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 1rem;
+          font-style:normal;
+          text-align: center;
+          color:gold;
+        }
+        </style>
   </head>
   <body>
     <header>
@@ -72,9 +81,30 @@
           src="images/nozzle-time.png"
           alt="Me fighting a fire with a big nozzle"
         />
-        <figcaption>This is a picture of me fighting a fire with a portable water cannon</figcaption>
+        <figcaption class="about-pictures">This is a picture of me fighting a fire with a portable water cannon</figcaption>
         </figure>
         </section>
+        <figure>
+          <img srcset="images/bugbugdrivingengine-320w.jpg 320w,
+          images/bugbugdrivingengine-480w.jpg 480w,
+          images/bugbugdrivingengine-800w.jpg 800w,
+          images/bugbugdrivingengine-1200w.jpg 1200w"
+
+          sizes="(max-width: 320px) 240px,
+          (max-width: 480px) 360px,
+          (max-width: 800px) 600px,
+          (max-width: 1200px) 900px"
+          
+          src="images/bugbugdrivingengine.jpg"
+          alt="My son driving daddy's big fire truck!">
+
+          <figcaption class="about-pictures">
+            My son driving daddy's big fire truck!
+          </figcaption>
+
+        </figure>
+
+
     </main>
     <footer class="footer">
      <a href="about-me.html" title="&copy;Bradley 'something clever should go here' Ives">&copy;Bradley 'something clever should go here' Ives</a>

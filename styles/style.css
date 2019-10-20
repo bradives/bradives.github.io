@@ -375,11 +375,11 @@ li {
 }
 
 a:link {
-  color: #4D97FF;
+  color:black
 }
 
 a:visited {
-  color: gold;
+  color: black;
 }
 
 a:hover {
@@ -389,7 +389,7 @@ a:hover {
 }
 
 a:active {
-  color: gold;
+  color: black
   background-color: #000000;
   text-decoration: none;
 }
