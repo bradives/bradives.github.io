@@ -357,8 +357,8 @@ html {
 h1 {
   font-size: 2.6rem;
 }
-html {background-color: rgb(60,186,84);
-    background: linear-gradient(0deg, rgba(60,186,84,1) 0%, rgba(44,93,163,1) 100%);} 
+html {background-color:  rgb(60,186,84);
+  background: radial-gradient(circle, rgba(60,186,84,1) 0%, rgba(44,93,163,1) 100%); } 
 p,
 li {
   font-size: 1.4rem;

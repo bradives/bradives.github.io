@@ -358,7 +358,7 @@
     font-size: 2.6rem; /*base h1 font size*/
   }
   html {background-color: rgb(60,186,84);
-      background: linear-gradient(0deg, rgba(60,186,84,1) 0%, rgba(44,93,163,1) 100%);} /*background is a blue/green gradient.  two of 3 colors I am currently obsessed with.  enjoy!*/
+    background: radial-gradient(circle, rgba(60,186,84,1) 0%, rgba(44,93,163,1) 100%); } /*background is a blue/green gradient.  two of 3 colors I am currently obsessed with.  enjoy!*/
   p,
   li {
     font-size: 1.4rem;
