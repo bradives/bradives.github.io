@@ -375,11 +375,11 @@ li {
 }
 
 a:link {
-  color: #006aff;
+  color: #4D97FF;
 }
 
 a:visited {
-  color: #6e00fd;
+  color: gold;
 }
 
 a:hover {
@@ -389,7 +389,7 @@ a:hover {
 }
 
 a:active {
-  color: #c1f0cd;
+  color: gold;
   background-color: #000000;
   text-decoration: none;
 }
@@ -401,13 +401,13 @@ header > h1 {
   line-height: 3rem;
   font-size: 50px;
   text-align: left;
-  color: #2c5da3;
+  color: gold;
   padding: 4%;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 header > h1 {
-  border-bottom: 0.3rem solid rgb(166, 255, 0);
+  border-bottom: 0.3rem solid #FFD700;
 }
 main {
 max-width: auto;
@@ -416,15 +416,15 @@ max-width: auto;
   background-color: #3cba54;
 }
 h1 {
-  background-color: rgba(7, 0, 34, 0.767);
-  color: darkblue;
+  background-color: black;
+  color: white;
 }
 .nav ul {
   list-style-type: none;
   margin: 0;
   padding: 2px;
   overflow: hidden;
-  background-color: rgba(7, 0, 34, 0.767);
+  background-color:black;
   font-size: 20px;
 }
 .nav li {
@@ -433,17 +433,17 @@ h1 {
 
 .nav li a {
   display: block;
-  color: #2c5da3;
+  color: white;
   text-align: center;
   padding: 8px 26px;
   text-decoration: none;
 }
 
 .nav li a:hover {
-  background-color: rgba(169, 172, 164, 0.822);
+  background-color: gold;
 }
 .nav li {
-  border-right: 1px solid #006aff;
+  border-right: 1px solid white;
 }
 .nav ul {
     position: relative;
@@ -451,5 +451,5 @@ h1 {
     width: 100%;
   }
  .active {
-    background-color: #2c5da3;
+    background-color: white;
   }
