@@ -19,4 +19,4 @@ a:active { color: #c1f0cd; background-color: #000000; text-decoration: none; }
 header { background-color:   #3cba54;}
 header > h1 { line-height: 2.0rem; font-size: 50px; text-align: left; color: #2c5da3; padding: 2%;}
 header > h1 {border-bottom: .3rem solid rgb(166, 255, 0);}
-main {max-width: auto;}
+main {max-width: 1400px;}
