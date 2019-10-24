@@ -422,10 +422,11 @@ h1 {
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 2px;
+  padding: 0px;
   overflow: hidden;
   background-color:black;
   font-size: 20px;
+  outline: white 1px solid;
 }
 .nav li {
   float: left;
@@ -453,3 +454,18 @@ h1 {
  .active {
     background-color: white;
   }
+  .footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:gold;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+  border-top: 2px solid black;
+  padding: 2px;
+ }
