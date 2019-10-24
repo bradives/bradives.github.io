@@ -419,7 +419,7 @@ h1 {
   background-color: black;
   color: white;
 }
-.nav ul {
+#bit112-nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0px;
@@ -428,11 +428,11 @@ h1 {
   font-size: 20px;
   outline: white 1px solid;
 }
-.nav li {
+#bit112-nav li {
   float: left;
 }
 
-.nav li a {
+#bit112-nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -440,20 +440,18 @@ h1 {
   text-decoration: none;
 }
 
-.nav li a:hover {
+#bit112-nav li a:hover {
   background-color: gold;
 }
-.nav li {
+#bit112-nav li {
   border-right: 1px solid white;
 }
-.nav ul {
+#bit112-nav ul {
     position: relative;
     top: 0;
     width: 100%;
   }
- .active {
-    background-color: white;
-  }
+
   .footer {
     position: inherit;
     left: 0;
