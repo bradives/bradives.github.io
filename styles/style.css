@@ -490,8 +490,22 @@ font-size: 1.5rem;
 top: 10px;
 left: 5px;
 }
-#intro > h2 {
+#intro-main > h2 {
   font-size: 2rem;
   color: gold;
   border-bottom: 2px solid gold;
+}
+#intro-main {
+  border: 3px solid gold;
+padding: 1rem;
+margin: 5px, 5px, 5px, 5px;
+display: inherit;
+position: relative;
+width: auto;
+max-width: max-content;
+background-color: black;
+color: white;
+font-size: 1.5rem;
+top: 10px;
+left: 5px;
 }
