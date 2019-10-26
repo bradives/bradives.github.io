@@ -476,7 +476,7 @@
    padding: 3px;
     width: 95%;
     height: fit-content;
-    width: fit-content;
+    width: 100%;
     font-size: 1.5rem;
     font-family: inherit;
 color:white;
@@ -493,7 +493,7 @@ position: inherit;
       background-color: #006aff;
       padding: 3px;
       margin: 40px;
-      width: fit-content;
+      width: 100%;
       height: fit-content;
       font-size: 15px;
       position: inherit;
