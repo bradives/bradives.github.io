@@ -409,9 +409,8 @@ a:active {
     "Lucida Sans", Arial, sans-serif;
     display: flex;
     position: relative;
-    max-width: auto;
+    max-width: fit-content;
     min-width: 1000px;
-    margin: relative;
 }
 .header > h1 h2{
   border-bottom: 0.3rem solid #FFD700;
@@ -498,11 +497,11 @@ left: 5px;
 #intro-main {
   border: 3px solid gold;
 padding: 1rem;
-margin: 5px, 5px, 5px, 5px;
+margin: 5px;
 display: inherit;
 position: relative;
 width: auto;
-max-width: max-content;
+max-width: fit-content;
 background-color: black;
 color: white;
 font-size: 1.5rem;
@@ -631,4 +630,53 @@ header nav ul li a #bit112-nav {
     background: black;
     color: white;
  
+  }
+  #about h2 {
+    font-family: inherit;
+    font-size: 3rem;
+    color: black;
+    border-bottom: 3px solid gold;
+
+  }
+  #about {
+    border-radius: 15px;
+    border: 3px groove gold;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    margin: 5px;
+    padding: 1px;
+  }
+  #classes {
+    border-radius: 15px;
+    border: 3px groove gold;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    margin: 5px;
+    padding: 1px;
+  }
+
+  #classes h2 {
+    font-family: inherit;
+    font-size: 3rem;
+    color: black;
+    border-bottom: 3px solid gold;
+
+  }
+  #nozzle-time {
+    width: 80%;
+    height: fit-content;
+    margin:5px;
+    padding: 1px;
+    border: solid black 3px;
+  }
+  #nozzle-caption {    border-radius: 15px;
+  font-size: 1.4rem;
+    width: inherit;
+    color: black;
+    margin: 5px;
+    padding: 1px;
+    font-style: oblique;
+
   }

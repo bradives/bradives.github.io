@@ -357,6 +357,8 @@
   }
   html {
     max-width: 1600px;
+    min-width: fit-content;
+    
   }
   body {
     margin: 0px;
@@ -413,15 +415,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     position: relative;
-    max-width: auto;
+    max-width: fit-content;
     min-width: 1000px;
-    margin: relative;
+    
   }
   header > h1 {
     border-bottom: 0.5rem solid rgb(255, 38, 0);
   }
   main {
-  max-width: auto;
+  max-width: fit-content;
   }
   .header {
     background-color: #006aff;
@@ -442,25 +444,26 @@
 
   
 #bit112-nav ul li a {
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
-    padding: 8px 16px;
+    padding: 8px 20px;
     text-decoration: none;
     overflow: auto;
+
   }
   
 #bit112-nav li a:hover {
     background-color: rgba(169, 172, 164, 0.822);
   }
 #bit112-nav li {
-    border-right: -4x solid white;
     border-left: 1px solid white;
     display: inline-block;
     overflow: auto;
-    padding: .5px;
+    padding:0px;
     font-size: 20px;
     float: none;
+
   }
 
 #bit112-nav  li a:active {
@@ -468,30 +471,32 @@
     }
 /*interest ID, giving a solid outline and font sizing*/
 #interest {
+  border-radius: 15px;
     border: 5px solid #e4fd00;
    padding: 3px;
-    margin: 40px;
     width: 95%;
-    height: 300px;
+    height: fit-content;
+    width: fit-content;
     font-size: 1.5rem;
     font-family: inherit;
 color:white;
 background-color: #006aff;
 margin: 5px 5px 5px 5px;
-left: 2rem;
+position: inherit;
   }
 
   
       /* classes ID, giving a dotted outline to the classes section*/
   #classes {
-      
+      border-radius: 15px;
       border: 5px dotted gold;
-      background-color: transparent;
+      background-color: #006aff;
       padding: 3px;
       margin: 40px;
-      width: auto;
-      height: auto;
+      width: fit-content;
+      height: fit-content;
       font-size: 15px;
+      position: inherit;
   }
   #classes {
       box-sizing: border-box;
@@ -506,7 +511,7 @@ left: 2rem;
   }
   /*adding additional notes because code is scrambling my brain.  My week 4 CSS changes spacing and margins for the box eliments I have set.  Changed fonts where I felt the look neededd to change ever so slightly.  Added borders to the two aside elements (both lists) but each is slightly different.*/
 
-
+/*moved .footer into stylesheet*/
   .footer {
     position: static;
     left: 0;
@@ -519,18 +524,16 @@ left: 2rem;
     font-style: oblique;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-top: 5px;
-  position: absolute;
   padding: 2px;
-  z-index: -1;
+  z-index: -1; /*trying to make a 3d-ish kinda thing*/
  }
 #intro {
   border-radius: 10px;
-border: 5px groove gold;
+border: 5px groove gold; /*groove border with a rounded edge looks pretty cool*/
 padding: 5px 5px 5px 5px;
 max-width: 100%;
 margin: 10px 5px 5px 10px;
 display: block;
-float: left;
 position: static;
 background-color: #006aff;
 color: white;
@@ -545,17 +548,18 @@ top: 10px;
 #float-pic {
   float: right;
   padding-left:2em;
-  width: 60%;
+  width: 60%; /*had to reduce the pic, also fixed the issue with pic getting blown up to 3x the actual size.   thanks for the help al! floated to the right with text to the left*/
   
 }
 
 #responsive {
 clear: left;
+border-radius: 10px;
 border: 2px solid gold;
 font-family: inherit;
 color:white;
 background-color: #006aff;
-height: 900px;
+height:fit-content; /*changed to "fit-content" from a standard set height.  magical things happened.*/
 padding-right: 2px;
 margin: 5px 5px 5px 5px;
 text-align: left;
@@ -570,9 +574,14 @@ font-size: 2rem;
   position: relative;
   margin: 5px 5px 5px 5px;
 }
+#fire-connor h2 {
+  font-family: inherit;
+  font-size: 2.3rem;
+  color: gold;
+}
 @media only screen and (max-width: 320px) {
   #responsive {
-    font-size: .8rem;
+    font-size: .9rem;   /*this was a painful learning process, the #responsive text box was being pushed off by the image.  the width fix for the image still did not fix the text, which was slipping down the page out of its box.   the @media fix makes the text size shrink as the view port shrinks, it's  a small, medium and large, large by default.  also needed a couple HTML fixes.  again thanks for looking my code over and suggesting fixes Al!*/
   }
  }
  @media only screen and (max-width: 480px) {
@@ -581,11 +590,24 @@ font-size: 2rem;
   }
  }
   
-  .bit-columns {
-    column-count: 3;
+  .bit-columns { /*columns, default to 3, shrinking to 2 between 600px and 321px and then 1 below that.  I'm apparently obsessed with gold.*/
+    column-count: 3; 
+    column-width: 150px;
+    column-gap: 10px;
+    column-rule: 4px solid gold;
+    
+
 
 
   }
+  .bit-columns h2{ /*styling the header*/
+    color:gold;
+    font-style: inherit;
+    font-size: 20px;
+    border-bottom: 2px solid gold;
+    
+
+  }/*column adjustment*/
   @media (max-width:600px) and (min-width:321px) {
     .bit-columns {
       column-count: 2;
@@ -606,51 +628,16 @@ font-size: 2rem;
     font-size: .8rem;
   }
 }
-@media screen and (min-width: 601px) and (max-width: 1599px) {
-  header nav ul li #bit112-nav {
-    width: 100%;
-    display: inline-block;
-  
-  }
-}
-header nav ul li #bit112-nav {
-  width: 15%;
-  float: left;
-  padding: 5px;
-}
-header nav ul li a #bit112-nav {
-  padding: 1em;
-  float: left;
-  display: block;
-  width: 100%;
-}
 
-@media only screen and (max-width: 600px) {
-  header nav ul li #bit112-nav {
-    width: 100%;
-    display: block;
-  }
+
+
+#connorpic {/*this picture was adjusting itself to something like 4000px wide.  had to put in on a leash*/
+  width:85%;
+  padding: 5px 5px 5px 5px;
+  
 }
-@media screen and (max-width: 600px) {
-  header nav ul li #bit112-nav {
-    width: 100%;
-    display: block;
-  }
-  header nav ul li #bit112-nav{
-    width: 30%;
-    float: left;
-    padding: 5px;
-  }
-  header nav ul li a #bit112-nav{
-    padding: .5rem;
-    float: left;
-    display: block;
-    width: 100%;
-    }
-  }
-#connorpic {
-  width:85%;}
-  #puppers {
+ 
+  #puppers { /* same with this pic.  seems my picture game is too strong.  also this was a personal addition to the index page for week 5 and the main*/
     width: 55%;
     padding: 5px;
     align-self: auto;
@@ -658,7 +645,7 @@ header nav ul li a #bit112-nav {
   #good-boy {
     font-family:inherit;
     font-size: 2rem;
-    border-radius: 15px;
+    border-radius: 15px; /*i have a thing for curvy golden borders*/
     border: 3px groove gold;
     padding: 5px;
     

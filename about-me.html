@@ -9,11 +9,7 @@
   <body>
     <header class="header">
       <h1>About Bradley Ives</h1>
-      <p>
-        <a href="index.html" title="Go back to the main page"
-          >Back to Main Page</a
-        >
-      </p>
+
       <nav id="bit112-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -24,8 +20,8 @@
         </nav>
     </header>
     <main>
-      <section>
-        <aside>
+        <aside id="about">
+          <h2>Life Of Bradley</h2>
       <ul>
         <li>Huge coffee Fan</li>
         <li>Grew up playing ice hockey</li>
@@ -42,20 +38,27 @@
         <li>Firefighter and EMT</li>
       </ul>
       </aside>
-      </section>
-      <section>
+      <section id="classes">
       <h2>Fall 2019 Classes</h2>
       <ul>
         <li><a href="index.html" title="to main">BIT 112 Web Authoring</a></li>
         <li>Math 085 Intermediate Algebra</li>
       </ul>
       </section>
-      <section>
+      
         <figure>
-        <img
-          src="images/nozzle-time.png"
-          alt="Me fighting a fire with a big nozzle"
-        />
+            <img id="nozzle-time" srcset="images/nozzle-time-320w.jpg 320w,
+            images/nozzle-time-480w.jpg 480w,
+            images/nozzle-time-800w.jpg 800w"
+                    
+            sizes="(max-width:480px) 360px,
+            (max-width: 800px) 600px"
+                          
+                    
+                    
+                    src="images/nozzle-time-800w.jpg" alt="Me fighting fire with a large ground monitor">
+                    <figcaption id="nozzle-caption">Fighting fire with a giant nozzle is one of the best ways to fight fire!</figcaption>
+          </figure>
 
     </main>
     <footer class="footer">
