@@ -413,7 +413,7 @@ a:active {
     min-width: 1000px;
     margin: relative;
 }
-.header > h1 {
+.header > h1 h2{
   border-bottom: 0.3rem solid #FFD700;
 }
 main {
@@ -509,3 +509,126 @@ font-size: 1.5rem;
 top: 10px;
 left: 5px;
 }
+#float-pic {
+  float: right;
+  padding-left:2em;
+  width: 60%;
+  
+}
+
+#responsive {
+clear: left;
+border: 2px solid gold;
+font-family: inherit;
+color:white;
+background-color: #006aff;
+height: 900px;
+padding-right: 2px;
+margin: 5px 5px 5px 5px;
+text-align: left;
+width: 40%;
+font-size: 2rem;
+}
+#fire-connor {
+  font-family:inherit;
+  font-size: 2rem;
+  border: 3px solid gold;
+  padding: 5px;
+  position: relative;
+  margin: 5px 5px 5px 5px;
+}
+@media only screen and (max-width: 320px) {
+  #responsive {
+    font-size: .8rem;
+  }
+ }
+ @media only screen and (max-width: 480px) {
+  #responsive {
+    font-size: 1.2rem;
+  }
+ }
+  
+  .bit-columns {
+    column-count: 3;
+
+
+  }
+  @media (max-width:600px) and (min-width:321px) {
+    .bit-columns {
+      column-count: 2;
+    }
+  }
+@media (max-width:320px) {
+  .bit-columns {
+    column-count: 1;
+  }
+}
+@media only screen and (max-width:600px) {
+  #interest {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #interest {
+    font-size: .8rem;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1599px) {
+  header nav ul li #bit112-nav {
+    width: 100%;
+    display: inline-block;
+  
+  }
+}
+header nav ul li #bit112-nav {
+  width: 15%;
+  float: left;
+  padding: 5px;
+}
+header nav ul li a #bit112-nav {
+  padding: 1em;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav ul li #bit112-nav {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav ul li #bit112-nav {
+    width: 100%;
+    display: block;
+  }
+  header nav ul li #bit112-nav{
+    width: 30%;
+    float: left;
+    padding: 5px;
+  }
+  header nav ul li a #bit112-nav{
+    padding: .5rem;
+    float: left;
+    display: block;
+    width: 100%;
+    }
+  }
+  #puppers {
+    width: 55%;
+    padding: 5px;
+    align-self: auto;
+  }
+  #good-boy {
+    font-family:inherit;
+    font-size: 2rem;
+    border-radius: 15px;
+    border: 3px groove gold;
+    padding: 5px;
+    
+    margin: 5px 40px;
+    background: black;
+    color: white;
+ 
+  }

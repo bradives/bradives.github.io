@@ -355,6 +355,9 @@
   html {
     font-size: 10px; /*base font size*/
   }
+  html {
+    max-width: 1600px;
+  }
   body {
     margin: 0px;
   }
@@ -444,13 +447,14 @@
     text-align: center;
     padding: 8px 16px;
     text-decoration: none;
+    overflow: auto;
   }
   
 #bit112-nav li a:hover {
     background-color: rgba(169, 172, 164, 0.822);
   }
 #bit112-nav li {
-    border-right: -1px solid white;
+    border-right: -4x solid white;
     border-left: 1px solid white;
     display: inline-block;
     overflow: auto;
@@ -465,17 +469,19 @@
 /*interest ID, giving a solid outline and font sizing*/
 #interest {
     border: 5px solid #e4fd00;
-    background-color: transparent;
-    padding: 3px;
+   padding: 3px;
     margin: 40px;
-    width: auto;
-    height: 150px;
-    font-size: 15px;
+    width: 95%;
+    height: 300px;
+    font-size: 1.5rem;
+    font-family: inherit;
+color:white;
+background-color: #006aff;
+margin: 5px 5px 5px 5px;
+left: 2rem;
   }
+
   
-#interest {
-    box-sizing: border-box;
-  }
       /* classes ID, giving a dotted outline to the classes section*/
   #classes {
       
@@ -517,22 +523,22 @@
   padding: 2px;
   z-index: -1;
  }
- .intro {
-border: 3px solid gold;
-padding: 1rem;
-max-width: fit-content;
-margin: 5px 5px 5px 5px;
+#intro {
+  border-radius: 10px;
+border: 5px groove gold;
+padding: 5px 5px 5px 5px;
+max-width: 100%;
+margin: 10px 5px 5px 10px;
 display: block;
 float: left;
 position: static;
 background-color: #006aff;
 color: white;
-font-size: 10px;
+font-size: 2rem;
 top: 10px;
-left: 5px;
 }
-.intro > h2 {
-  font-size: 2rem;
+#intro > h2 {
+  font-size: 3rem;
   color: gold;
   border-bottom: 2px solid gold;
 }
@@ -542,6 +548,7 @@ left: 5px;
   width: 60%;
   
 }
+
 #responsive {
 clear: left;
 border: 2px solid gold;
@@ -576,7 +583,87 @@ font-size: 2rem;
   
   .bit-columns {
     column-count: 3;
-    column-gap: 20px;
-    column-rule: gold 4px double;
-    break-inside: avoid;
+
+
+  }
+  @media (max-width:600px) and (min-width:321px) {
+    .bit-columns {
+      column-count: 2;
+    }
+  }
+@media (max-width:320px) {
+  .bit-columns {
+    column-count: 1;
+  }
+}
+@media only screen and (max-width:600px) {
+  #interest {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #interest {
+    font-size: .8rem;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1599px) {
+  header nav ul li #bit112-nav {
+    width: 100%;
+    display: inline-block;
+  
+  }
+}
+header nav ul li #bit112-nav {
+  width: 15%;
+  float: left;
+  padding: 5px;
+}
+header nav ul li a #bit112-nav {
+  padding: 1em;
+  float: left;
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav ul li #bit112-nav {
+    width: 100%;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  header nav ul li #bit112-nav {
+    width: 100%;
+    display: block;
+  }
+  header nav ul li #bit112-nav{
+    width: 30%;
+    float: left;
+    padding: 5px;
+  }
+  header nav ul li a #bit112-nav{
+    padding: .5rem;
+    float: left;
+    display: block;
+    width: 100%;
+    }
+  }
+#connorpic {
+  width:85%;}
+  #puppers {
+    width: 55%;
+    padding: 5px;
+    align-self: auto;
+  }
+  #good-boy {
+    font-family:inherit;
+    font-size: 2rem;
+    border-radius: 15px;
+    border: 3px groove gold;
+    padding: 5px;
+    
+    margin: 5px 40px;
+    background:#006aff;
+    color: white;
+ 
   }
