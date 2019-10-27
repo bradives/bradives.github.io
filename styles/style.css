@@ -345,9 +345,7 @@ template {
    * Add the correct display in IE 10.
    */
 
-[hidden] {
-  display: none;
-}
+
 
 html {
   font-size: 10px;
@@ -409,18 +407,21 @@ a:active {
     "Lucida Sans", Arial, sans-serif;
     display: flex;
     position: relative;
-    max-width: fit-content;
-    min-width: 1000px;
+width: 100%;
+max-width: 1366px;
 }
 .header > h1 h2{
   border-bottom: 0.3rem solid #FFD700;
 }
 main {
-  max-width: 1600px;
-  min-width: 1000px;
+  width: 100%;
+  max-width: 1366px;
+
 }
 .header {
   background-color: #3cba54;
+  width: 100%;
+  max-width: 1366px;
 }
 h1 {
   background-color: black;
@@ -433,6 +434,8 @@ h1 {
   overflow: hidden;
   background-color:black;
   font-size: 20px;
+  width: 100%;
+  max-width: 1366px;
 }
 #bit112-nav li {
   float: left;
@@ -456,6 +459,7 @@ h1 {
     position: relative;
     top: 0;
     width: 100%;
+    max-width: 1366px;
   }
 
   .footer {
@@ -463,6 +467,7 @@ h1 {
     left: 0;
     bottom: 0;
     width: 100%;
+    max-width: 1366px;
     background-color:gold;
     color: white;
     text-align: center;
@@ -476,7 +481,7 @@ h1 {
  #intro {
 border: 3px solid gold;
 padding: 1rem;
-max-width: fit-content;
+max-width: 1366px;
 margin: auto;
 display: block;
 float: left;
@@ -500,8 +505,8 @@ padding: 1rem;
 margin: 5px;
 display: inherit;
 position: relative;
-width: auto;
-max-width: fit-content;
+width: 100%;
+max-width: 1366px;
 background-color: black;
 color: white;
 font-size: 1.5rem;
@@ -572,7 +577,7 @@ font-size: 2rem;
     font-size: .8rem;
   }
 }
-/*@media screen and (min-width: 601px) and (max-width: 1599px) {
+@media screen and (min-width: 601px) and (max-width: 1599px) {
   header nav ul li #bit112-nav {
     width: 100%;
     display: inline-block;
@@ -612,10 +617,12 @@ header nav ul li a #bit112-nav {
     float: left;
     display: block;
     width: 100%;
-    }*/   /*trying to make a responsive nav.  left it in because it's still a work in progress*/
+    max-width: 1366px;
+    }
   }
   #puppers {
-    width: 55%;
+    width: 100%;
+    max-width: 1366px;
     padding: 5px;
     align-self: auto;
   }
@@ -625,7 +632,8 @@ header nav ul li a #bit112-nav {
     border-radius: 15px;
     border: 3px groove gold;
     padding: 5px;
-    
+    width:100%;
+    max-width: 1366px;
     margin: 5px 40px;
     background: black;
     color: white;
@@ -642,6 +650,7 @@ header nav ul li a #bit112-nav {
     border-radius: 15px;
     border: 3px groove gold;
     width: 100%;
+    max-width: 1366px;
     height: fit-content;
     color: black;
     margin: 5px;
@@ -650,7 +659,8 @@ header nav ul li a #bit112-nav {
   #classes {
     border-radius: 15px;
     border: 3px groove gold;
-    width: fit-content;
+    width: 100%;
+    max-width: 1366px;
     height: fit-content;
     color: black;
     margin: 5px;
@@ -666,6 +676,7 @@ header nav ul li a #bit112-nav {
   }
   #nozzle-time {
     width: 80%;
+    max-width: 800px;
     height: fit-content;
     margin:5px;
     padding: 1px;
@@ -673,7 +684,8 @@ header nav ul li a #bit112-nav {
   }
   #nozzle-caption {    border-radius: 15px;
   font-size: 1.4rem;
-    width: inherit;
+    width:100%;
+    max-width: 1366px;
     color: black;
     margin: 5px;
     padding: 1px;
