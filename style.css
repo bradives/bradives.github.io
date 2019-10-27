@@ -422,9 +422,7 @@
   header > h1 {
     border-bottom: 0.5rem solid rgb(255, 38, 0);
   }
-  main {
-  max-width: fit-content;
-  }
+  
   .header {
     background-color: #006aff;
   }
