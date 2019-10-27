@@ -357,7 +357,7 @@
   }
   html {
     width:100%;
-    max-width: 1366px;
+    max-width: 1300px;
     
   }
   body {
@@ -416,7 +416,7 @@
     display: flex;
     position: relative;
     width:100%;
-    max-width: 1366px;
+    max-width: 1300px;
     
   }
   header > h1 {
@@ -426,7 +426,7 @@
   .header {
     background-color: #006aff;
     width:100%;
-    max-width: 1366px;
+    max-width: 1300px;
   }
   h1 {
     background-color: rgba(7, 0, 34, 0.767);
@@ -439,7 +439,7 @@
     position: relative;
     top: 0;
     width: 100%;
-    max-width: 1366px;
+    max-width: 1300px;
     overflow: auto;
   }
 
@@ -477,7 +477,7 @@
    padding: 3px;
     height: fit-content;
     width: 100%;
-    max-width: 1366px;
+    max-width: 1300px;
     font-size: 1.5rem;
     font-family: inherit;
 color:white;
@@ -495,7 +495,7 @@ position: inherit;
       padding: 3px;
       margin: 5px;
       width:100%;
-      max-width: 1366px;
+      max-width: 1300px;
       height: fit-content;
       font-size: 15px;
       position: inherit;
@@ -520,7 +520,7 @@ position: inherit;
     left: 0;
     bottom: 0;
     width: 100%;
-    max-width: 1366px;
+    max-width: 1300px;
     background-color:#006aff;
     color: white;
     text-align: center;
@@ -536,7 +536,7 @@ position: inherit;
 border: 5px groove gold; /*groove border with a rounded edge looks pretty cool*/
 padding: 5px 5px 5px 5px;
 width: 100%;
-max-width: 1366px;
+max-width: 1300px;
 margin: 10px 5px 5px 10px;
 display: block;
 position: static;
@@ -554,7 +554,7 @@ top: 10px;
   float: right;
   padding-left:2em;
   width: 60%; /*had to reduce the pic, also fixed the issue with pic getting blown up to 3x the actual size.   thanks for the help al! floated to the right with text to the left*/
-  
+  max-width: 1300px;
 }
 
 #responsive {
@@ -640,13 +640,14 @@ font-size: 2rem;
 
 #connorpic {/*this picture was adjusting itself to something like 4000px wide.  had to put in on a leash*/
   width:85%;
+  max-width: 1000px;
   padding: 5px 5px 5px 5px;
   
 }
  
   #puppers { /* same with this pic.  seems my picture game is too strong.  also this was a personal addition to the index page for week 5 and the main*/
-    width: 55%;
-    max-width: 1366px;
+    width: 60%;
+    max-width: 1300px;
     padding: 5px;
     align-self: auto;
   }
@@ -657,7 +658,7 @@ font-size: 2rem;
     border: 3px groove gold;
     padding: 5px;
     width: 100%;
-    max-width: 1366px;
+    max-width: 1300px;
     
     margin: 5px 40px;
     background:#006aff;

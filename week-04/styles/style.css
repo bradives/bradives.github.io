@@ -408,7 +408,8 @@
     border-bottom: 0.5rem solid rgb(255, 38, 0);
   }
   main {
-  max-width: 1400px;
+    width: 100%;
+  max-width: 1300px;
   }
   .header {
     background-color: #006aff;
