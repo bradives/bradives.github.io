@@ -572,7 +572,7 @@ font-size: 2rem;
     font-size: .8rem;
   }
 }
-@media screen and (min-width: 601px) and (max-width: 1599px) {
+/*@media screen and (min-width: 601px) and (max-width: 1599px) {
   header nav ul li #bit112-nav {
     width: 100%;
     display: inline-block;
@@ -612,7 +612,7 @@ header nav ul li a #bit112-nav {
     float: left;
     display: block;
     width: 100%;
-    }
+    }*/   /*trying to make a responsive nav.  left it in because it's still a work in progress*/
   }
   #puppers {
     width: 55%;
