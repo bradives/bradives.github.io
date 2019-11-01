@@ -367,7 +367,7 @@ h1 {
  /*trying to make a 3d-ish kinda thing*/
 }
 #intro {
-  border-radius: 15px / 50px;
+  border-radius: 10px;
   border: 5px groove gold;
  /*groove border with a rounded edge looks pretty cool*/
   padding: 5px 5px 5px 5px;
