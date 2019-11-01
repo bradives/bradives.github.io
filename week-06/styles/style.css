@@ -213,7 +213,7 @@ h1 {
  /*base h1 font size*/
 }
 html {
- background-color: #214273;
+ background-color: #3e13af;
 }
 /*ended up hating how the gradient looked*/
 p, li {
@@ -245,13 +245,13 @@ a:active {
   text-decoration: none;
 }
 header {
-  background-color: #004CB3;
+  background-color: gold;
 }
 header > h1 {
   line-height: 10px;
   font-size: 5rem;
   text-align: left;
-  color: #3cba54;
+  color: #240673;
   padding: 1%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
@@ -263,18 +263,18 @@ header > h1 {
   border-bottom: 0.5rem solid rgb(255, 38, 0);
 }
 .header {
-  background-color: #006aff;
+  background-color: #a78d00;
   width:100%;
   max-width: 1300px;
 }
 h1 {
-  background-color: rgba(7, 0, 34, 0.767);
+  background-color: #FFE974;
 }
 /*nav element styling. Nav is intended to be horzontal bar with buttons for the main home index page, buttons for week 1-3 and week 4 and space for more weeks*/
 #bit112-nav ul {
   list-style-type: none;
   margin: 0px;
-  background-color: rgba(5, 230, 5, 0.767);
+  background-color: #ffe140;
   font-size: 20px;
   position: relative;
   top: 0;
@@ -307,7 +307,7 @@ h1 {
 /*interest ID, giving a solid outline and font sizing*/
 #interest {
   border-radius: 15px;
-  border: 5px solid #e4fd00;
+  border: 5px solid gold;
   padding: 3px;
   height: fit-content;
   width: 100%;
@@ -315,7 +315,7 @@ h1 {
   font-size: 1.5rem;
   font-family: inherit;
   color:white;
-  background-color: #006aff;
+  background-color: #240673;
   margin: 5px 5px 5px 5px;
   position: inherit;
 }
@@ -323,7 +323,8 @@ h1 {
 #classes {
   border-radius: 15px;
   border: 5px dotted gold;
-  background-color: #006aff;
+  background-color: #240673;
+  color: white;
   padding: 3px;
   margin: 5px;
   width:100%;
@@ -352,8 +353,8 @@ h1 {
   bottom: 0;
   width: 100%;
   max-width: 1300px;
-  background-color:#006aff;
-  color: white;
+  background-color: #240673;
+  color: gold;
   text-align: center;
   font-size: 1.5rem;
   font-style: oblique;
@@ -373,7 +374,7 @@ h1 {
   margin: 10px 5px 5px 10px;
   display: block;
   position: static;
-  background-color: #006aff;
+  background-color: #240673;
   color: white;
   font-size: 2rem;
   top: 10px;
@@ -396,7 +397,7 @@ h1 {
   border: 2px solid gold;
   font-family: inherit;
   color:white;
-  background-color: #006aff;
+  background-color: #240673;
   height:fit-content;
  /*changed to "fit-content" from a standard set height. magical things happened.*/
   padding-right: 2px;
@@ -487,12 +488,6 @@ h1 {
   width: 100%;
   max-width: 1300px;
   margin: 5px 40px;
-  background:#006aff;
+  background: #240673;
   color: white;
-}
-#assignments {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
-  border-radius: 15px;
-  border: 3px grove gold;  
 }
