@@ -490,3 +490,9 @@ h1 {
   background:#006aff;
   color: white;
 }
+#assignments {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  border-radius: 15px;
+  border: 3px grove gold;  
+}
