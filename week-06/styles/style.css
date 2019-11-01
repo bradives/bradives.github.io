@@ -493,3 +493,15 @@ h1 {
   background: #240673;
   color: white;
 }
+#assignments {
+  border-radius: 15px;
+  border: solid 3px gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 100%;
+  max-width: 1300px;
+  background color: #7459B9;
+}
+#assignments > h2{
+  color: gold;
+  font-size: 2rem;
+}
