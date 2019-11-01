@@ -9,15 +9,8 @@
   <body>
     <header class="header">
       <h1>About Bradley Ives</h1>
-
-      <nav id="bit112-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="../weeks-01-03/index.html">Weeks 1-3</a></li>
-          <li><a href="../week-04/index.html">Week 4</a></li>
-          <li><a href="week-05/index.html">week 5</a></li>
-        </ul>
-        </nav>
+      <div w3-include-html="../nav.html">      
+      </div>
     </header>
     <main>
         <aside id="about">
@@ -64,5 +57,10 @@
     <footer class="footer">
      <a href="about-me.html" title="&copy;Bradley 'something clever should go here' Ives">&copy;Bradley 'something clever should go here' Ives</a>
     </footer>
+        <!-- Enable includes -->
+<script src="scripts/includes.js"></script>
+<script>
+includeHTML();
+</script>
   </body>
 </html>
