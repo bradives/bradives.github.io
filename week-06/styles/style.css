@@ -251,7 +251,9 @@ header > h1 {
   line-height: 10px;
   font-size: 5rem;
   text-align: left;
-  color: #240673;
+  color: #FFD700;
+  text-shadow: #240673	 ;
+  outline: #6F48D7	;
   padding: 1%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
