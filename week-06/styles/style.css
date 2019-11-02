@@ -504,3 +504,14 @@ h1 {
   color: gold;
   font-size: 2rem;
 }
+#engines {
+  border-radius: 15px;
+  border: solid 3px gold;
+  width: 100%;
+  max-width: 1300px;
+  background-color: #240673;
+}
+#engines img {
+  width: 100%;
+padding: 1px 1px 1px 1px;
+}
