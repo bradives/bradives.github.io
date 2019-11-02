@@ -23,7 +23,7 @@ body {
     max-width: 980px;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
   }
   
   nav {
@@ -38,6 +38,7 @@ body {
     padding: 0;
     list-style: none;
     display: flex;
+    justify-content: space-between;
   }
   
   nav a {
