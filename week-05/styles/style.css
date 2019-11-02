@@ -490,3 +490,18 @@ h1 {
   background:#006aff;
   color: white;
 }
+#bonus {
+  border-radius: 10px;
+  border: 5px groove gold;
+ /*groove border with a rounded edge looks pretty cool*/
+  padding: 5px 5px 5px 5px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 10px 5px 5px 10px;
+  display: block;
+  position: static;
+  background-color: #006aff;
+  color: white;
+  font-size: 2rem;
+  top: 10px;
+}
