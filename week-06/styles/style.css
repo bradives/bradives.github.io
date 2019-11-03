@@ -367,20 +367,19 @@ h1 {
  /*trying to make a 3d-ish kinda thing*/
 }
 #intro {
-  border-radius: 10px;
   border: 5px groove gold;
- /*groove border with a rounded edge looks pretty cool*/
+ /*groove border  looks pretty cool*/
   padding: 5px 5px 5px 5px;
   width: 100%;
   max-width: 1300px;
-  margin: 10px 5px 5px 1px;
+  margin: 1rem auto;
   display: block;
   position: static;
   background-color: #240673;
   color: white;
   font-size: 2rem;
   top: 10px;
-  background-clip: content-box;
+  background-clip: border-box;
 }
 #intro > h2 {
   font-size: 3rem;
