@@ -252,7 +252,7 @@ header > h1 {
   font-size: 5rem;
   text-align: left;
   color: #8B6ED7;
-  text-shadow: #240673;
+  text-shadow: 1px 1px 2px #240673;
   outline: gold	;
   padding: 1%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
