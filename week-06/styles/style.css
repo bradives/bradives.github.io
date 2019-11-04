@@ -480,13 +480,18 @@ h1 {
   width:85%;
   max-width: 1000px;
   padding: 5px 5px 5px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #puppers {
  /* same with this pic. seems my picture game is too strong. also this was a personal addition to the index page for week 5 and the main*/
   width: 60%;
   max-width: 1300px;
   padding: 5px;
-  align-self: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #good-boy {
   font-family:inherit;
@@ -500,6 +505,7 @@ h1 {
   margin: 5px 40px;
   background: #240673;
   color: white;
+  display: block;
 }
 #assignments {
   border-radius: 15px;
