@@ -499,10 +499,11 @@ h1 {
   padding: 5px;
   width: 100%;
   max-width: 1300px;
-  margin: 5px 40px;
   background: #240673;
   color: white;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #assignments {
   border-radius: 15px;
