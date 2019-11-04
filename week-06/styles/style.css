@@ -244,9 +244,7 @@ a:active {
   background-color: #000000;
   text-decoration: none;
 }
-header {
-  background-color: gold;
-}
+
 header > h1 {
   line-height: 10px;
   font-size: 5rem;
