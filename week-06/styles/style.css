@@ -270,10 +270,10 @@ header > h1 {
   }
 }
 .header {
-  background-color: #a78d00;
+  background-color: purple;
   width:100%;
   max-width: 1300px;
-  display: inline-flex;
+  display: flex;
   flex-flow: wrap;
 }
 h1 {
