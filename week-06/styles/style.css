@@ -267,7 +267,7 @@ header > h1 {
     font-size: 2.7rem;
   }
 }
-.header {
+header {
   background-color: purple;
   width:100%;
   max-width: 1300px;
