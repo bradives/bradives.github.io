@@ -273,8 +273,7 @@ header > h1 {
   background-color: purple;
   width:100%;
   max-width: 1300px;
-  display: flex;
-  flex-flow: wrap;
+
 }
 h1 {
   background-color: #FFE974;
