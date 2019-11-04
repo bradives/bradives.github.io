@@ -273,6 +273,8 @@ header > h1 {
   background-color: #a78d00;
   width:100%;
   max-width: 1300px;
+  display: inline-flex;
+  flex-flow: wrap;
 }
 h1 {
   background-color: #FFE974;
@@ -378,7 +380,8 @@ h1 {
   width: 100%;
   max-width: 1300px;
   margin: 1rem auto;
-  display: block;
+  display: inline-flex;
+  flex-flow: wrap;
   position: static;
   background-color: #240673;
   color: white;
