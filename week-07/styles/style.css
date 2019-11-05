@@ -358,8 +358,24 @@ header {
   background-color: black; }
   header a {
     color: white; }
-#bit112-nav {
-  display: inline-block;
+a:visited {
+  color: #515251;
+}
+a:hover {
+  color: red;
+  background-color: white;
+}
+a:link {
+  color: white:
+}
+#bit112-nav ul li a {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin:0;
+  font-size: 1.5rem;
+  position: relative;
+  
 }
 article {
       padding: 1em 1em 4em; }
