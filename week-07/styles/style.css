@@ -358,6 +358,9 @@ header {
   background-color: black; }
   header a {
     color: white; }
+#bit112-nav {
+  display: inline-block;
+}
 article {
       padding: 1em 1em 4em; }
 article img {
@@ -375,7 +378,7 @@ article img {
           header {
             font-size: 1em; }
             header nav {
-              float: right; }
+              display: inline-block; }
           footer {
             position: inherit;
             bottom: 0;
