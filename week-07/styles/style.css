@@ -366,12 +366,12 @@ a:hover {
   background-color: white;
 }
 a:link {
-  color: red;
+  color: goldenrod;
 }
 #bit112-nav ul {
   list-style-type: none;
   margin: 0px;
-  background-color: goldenrod;
+  background-color: red;
   font-size: 1.5rem;
   position: relative;
   top: 0;
