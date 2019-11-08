@@ -412,6 +412,16 @@ article img {
           background-color: black; }
           footer a {
             color: red; }
+.bit-columns {
+  column-count: 1;
+  column-width: 100px;
+}
+
+.bit-columns h2 {
+  color: red;
+  border-bottom: 2px solid red;
+  border-bottom-width: 25%;
+}
         
         @media (min-width: 590px) {
           header {
@@ -421,9 +431,16 @@ article img {
             bottom: 0;
             left: 0;
             right: 0;
-            font-size: 1rem; } }
+            font-size: 1rem; } 
+          .bit-columns {
+            column-count: 2;
+            column-width: 125px;
+            column-rule: red solid 2px;
+            column-gap: 4px;
+          }
+          }
         
-        @media (min-width: 885px) {
+        @media (min-width: 900px) {
           body {
             font-size: 2rem; }
           article {
@@ -432,4 +449,11 @@ article img {
             article img {
               width: 50%;
               float: right;
-              margin: 0 0 1em 1em; } }
+              margin: 0 0 1em 1em; } 
+            .bit-columns {
+              column-count: 3;
+              column-width: 150px; 
+              column-rule: red 3px solid;
+              column-gap: 6px;
+            }
+            }
