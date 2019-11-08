@@ -359,14 +359,14 @@ header {
   header a {
     color: white; }
 a:visited {
-  color: #515251;
+  color: white;
 }
 a:hover {
   color: red;
   background-color: white;
 }
 a:link {
-  color: goldenrod;
+  color: white;
 }
 #bit112-nav ul {
   list-style-type: none;
