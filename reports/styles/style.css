@@ -412,6 +412,16 @@ article img {
           background-color: black; }
           footer a {
             color: red; }
+.answer p ul ol{
+  border: white 2px dotted;
+
+}
+.answer h2 {
+  color: white;
+  border-bottom: 2px goldenrod;
+  display: inline-block;
+  width: auto;
+}
 .bit-columns {
   column-count: 1;
   column-width: 100px;
