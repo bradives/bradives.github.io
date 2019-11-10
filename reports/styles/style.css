@@ -423,6 +423,14 @@ padding: .3rem;
   display: inline-block;
   width: auto;
 }
+#cat-tax {
+  width: 60%;
+  max-width: 580px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .bit-columns {
   column-count: 1;
   column-width: 100px;
@@ -453,6 +461,14 @@ padding: .3rem;
             column-rule: red solid 2px;
             column-gap: 4px;
           }
+          #cat-tax {
+            width: 60%;
+            max-width: 890px;
+            padding: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
             }
         
         @media (min-width: 900px) {
@@ -470,5 +486,13 @@ padding: .3rem;
               column-width: 150px; 
               column-rule: red 3px solid;
               column-gap: 6px;
+            }
+            #cat-tax {
+              width: 60%;
+              max-width: 1200px;
+              padding: 5px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
             }
             }
