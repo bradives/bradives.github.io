@@ -414,9 +414,10 @@ article img {
             color: red; }
 .answer {
   border: solid goldenrod 3px;
-
+margin:.3rem;
+padding: 2px;
 }
-.answer > h2 {
+h2.answer {
   color: white;
   border-bottom: 2px goldenrod;
   display: inline-block;
