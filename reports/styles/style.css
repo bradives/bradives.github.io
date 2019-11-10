@@ -413,13 +413,13 @@ article img {
           footer a {
             color: red; }
 .answer {
-  border: solid goldenrod 3px;
+  border: solid gold 3px;
 margin:.3rem;
 padding: .3rem;
 }
  h2 {
   color: white;
-  border-bottom: ridge 5px goldenrod;
+  border-bottom: ridge 5px gold;
   display: inline-block;
   width: auto;
 }
