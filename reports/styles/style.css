@@ -419,7 +419,7 @@ padding: .3rem;
 }
  h2 {
   color: white;
-  border-bottom: 2px goldenrod;
+  border-bottom: solid 2px goldenrod;
   display: inline-block;
   width: auto;
 }
