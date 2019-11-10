@@ -412,11 +412,11 @@ article img {
           background-color: black; }
           footer a {
             color: red; }
-.answer p ul ol{
+#answer p ul ol{
   border: solid goldenrod 3px;
 
 }
-.answer h2 {
+#answer h2 {
   color: white;
   border-bottom: 2px goldenrod;
   display: inline-block;
@@ -452,11 +452,11 @@ article img {
             column-rule: red solid 2px;
             column-gap: 4px;
           }
-          .answer p ul ol{
+          #answer p ul ol{
             border: solid goldenrod 3px;
           
           }
-          .answer h2 {
+          #answer h2 {
             color: white;
             border-bottom: 2px goldenrod;
             display: inline-block;
@@ -480,10 +480,10 @@ article img {
               column-rule: red 3px solid;
               column-gap: 6px;
             }
-            .answer p ul ol{
+            #answer p ul ol{
               border: solid goldenrod 3px;
                         }
-            .answer h2 {
+            #answer h2 {
               color: white;
               border-bottom: 2px goldenrod;
               display: inline-block;
