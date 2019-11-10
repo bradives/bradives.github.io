@@ -413,7 +413,7 @@ article img {
           footer a {
             color: red; }
 .answer p ul ol{
-  border: white 2px dotted;
+  border: solid goldenrod 3px;
 
 }
 .answer h2 {
@@ -453,7 +453,7 @@ article img {
             column-gap: 4px;
           }
           .answer p ul ol{
-            border: white 2px dotted;
+            border: solid goldenrod 3px;
           
           }
           .answer h2 {
@@ -481,7 +481,7 @@ article img {
               column-gap: 6px;
             }
             .answer p ul ol{
-              border: white 2px dotted;
+              border: solid goldenrod 3px;
                         }
             .answer h2 {
               color: white;
