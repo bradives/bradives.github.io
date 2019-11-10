@@ -442,11 +442,25 @@ article img {
             left: 0;
             right: 0;
             font-size: 1rem; } 
+            article {
+              max-width: 700px;
+              width: 100%;
+            }
           .bit-columns {
             column-count: 2;
             column-width: 125px;
             column-rule: red solid 2px;
             column-gap: 4px;
+          }
+          .answer p ul ol{
+            border: white 2px dotted;
+          
+          }
+          .answer h2 {
+            color: white;
+            border-bottom: 2px goldenrod;
+            display: inline-block;
+            width: auto;
           }
           }
         
@@ -457,7 +471,7 @@ article img {
             max-width: 1200px;
             margin: 0 auto; }
             article img {
-              width: 50%;
+              width: 100%;
               float: right;
               margin: 0 0 1em 1em; } 
             .bit-columns {
@@ -465,5 +479,14 @@ article img {
               column-width: 150px; 
               column-rule: red 3px solid;
               column-gap: 6px;
+            }
+            .answer p ul ol{
+              border: white 2px dotted;
+                        }
+            .answer h2 {
+              color: white;
+              border-bottom: 2px goldenrod;
+              display: inline-block;
+              width: auto;
             }
             }
