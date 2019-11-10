@@ -415,9 +415,9 @@ article img {
 .answer {
   border: solid goldenrod 3px;
 margin:.3rem;
-padding: 2px;
+padding: .3rem;
 }
-h2.answer {
+.answer h2 {
   color: white;
   border-bottom: 2px goldenrod;
   display: inline-block;
