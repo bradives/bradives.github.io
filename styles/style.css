@@ -461,6 +461,11 @@ h1 {
     width: 100%;
     max-width: 1300px;
   }
+#website h3 {
+  font-size: 1.7rem;
+  color: gold;
+  border-bottom: 2px solid gold;
+}
 /*moved footer into CSS*/
   .footer {
     position: inherit;
