@@ -376,7 +376,7 @@ a:link {
   position: relative;
   top: 0;
 
-  overflow: auto;
+  overflow: hidden;
 }
 #bit112-nav ul li a {
   display: inline-block;
@@ -384,7 +384,7 @@ a:link {
   text-align: center;
   padding: 8px 20px;
   text-decoration: none;
-  overflow: auto;
+  overflow: hidden;
 }
 #bit112-nav li a:hover {
   background-color: goldenrod;
@@ -392,7 +392,7 @@ a:link {
 #bit112-nav li {
   border-left: 1px solid goldenrod;
   display: inline-block;
-  overflow: auto;
+  overflow: hidden;
   padding:0px;
   font-size: 20px;
   float: none;
