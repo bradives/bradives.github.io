@@ -382,7 +382,7 @@ a:link {
   display: inline-block;
   color: black;
   text-align: center;
-  padding: 8px 26px;
+  padding: 0px;
   text-decoration: none;
   overflow: hidden;
 }
