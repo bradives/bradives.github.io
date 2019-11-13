@@ -353,7 +353,7 @@ body {
 }
 header {
   font-size: 0.8rem;
-  padding: 1rem;
+  padding: 0;
   color: red;
   background-color: black; }
   header a {
