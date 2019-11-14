@@ -471,6 +471,9 @@ padding: .3rem;
             margin-left: auto;
             margin-right: auto;
           }
+          #bit112-nav {
+            font-size: .7rem;
+          }
             }
         
         @media (min-width: 900px) {
@@ -496,5 +499,8 @@ padding: .3rem;
               display: block;
               margin-left: auto;
               margin-right: auto;
+            }
+            #bit112-nav {
+              font-size: 1rem;
             }
             }
