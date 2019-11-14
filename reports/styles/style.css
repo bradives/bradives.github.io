@@ -499,6 +499,7 @@ padding: .3rem;
               display: block;
               margin-left: auto;
               margin-right: auto;
+              image-orientation: from-image;
             }
             #bit112-nav {
               font-size: 1.4rem;
