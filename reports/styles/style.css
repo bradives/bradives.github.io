@@ -374,7 +374,7 @@ a:link {
   padding: 0px;
   overflow: hidden;
   background-color:red;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   width: 100%;
   max-width: 580px;
 }
@@ -472,7 +472,7 @@ padding: .3rem;
             margin-right: auto;
           }
           #bit112-nav {
-            font-size: .7rem;
+            font-size: .9rem;
           }
             }
         
@@ -501,6 +501,6 @@ padding: .3rem;
               margin-right: auto;
             }
             #bit112-nav {
-              font-size: 1rem;
+              font-size: 1.4rem;
             }
             }
