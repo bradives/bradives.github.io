@@ -299,8 +299,13 @@ h1 {
   text-decoration: none;
 }
 
-#bit112-nav li a:hover {
+#bit112-nav a:hover {
+  color: black;
   background-color: white;
+}
+#bit112-nav a:active {
+  color: white;
+  background-color: black;
 }
 #bit112-nav li {
   border-right: 1px solid white;
