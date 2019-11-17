@@ -389,7 +389,7 @@ a:hover {
 }
 
 a:active {
-  color: black;
+  color:white;
   background-color: #000000;
   text-decoration: none;
 }

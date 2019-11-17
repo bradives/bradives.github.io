@@ -358,16 +358,22 @@ header {
   background-color: black; }
   header a {
     color: white; }
-a:visited {
+    a:link {
+      color: white;
+
+    a:visited {
   color: white;
 }
 a:hover {
   color: red;
   background-color: white;
 }
-a:link {
+a:active {
   color: white;
+  background-color: red;
 }
+
+
 #bit112-nav ul {
   list-style-type: none;
   margin: 0;

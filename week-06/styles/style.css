@@ -279,14 +279,13 @@ h1 {
 /*nav element styling. Nav is intended to be horzontal bar with buttons for the main home index page, buttons for week 1-3 and week 4 and space for more weeks*/
 #bit112-nav ul {
   list-style-type: none;
-  margin: 0px;
-  background-color: #ffe140;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color:#FFE140;
   font-size: 20px;
-  position: relative;
-  top: 0;
   width: 100%;
   max-width: 1300px;
-  overflow: auto;
 }
 #bit112-nav ul li a {
   display: inline-block;
