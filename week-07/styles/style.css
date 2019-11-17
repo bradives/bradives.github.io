@@ -358,48 +358,55 @@ header {
   background-color: black; }
   header a {
     color: white; }
-a:visited {
+    a:link {
+      color: white;
+    }
+    a:visited {
   color: white;
 }
 a:hover {
   color: red;
   background-color: white;
 }
-a:link {
-  color: white;
-}
 #bit112-nav ul {
   list-style-type: none;
-  margin: 0px;
-  background-color: red;
-  font-size: 1.5rem;
-  position: relative;
-  top: 0;
-
-  overflow: auto;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color:red;
+  font-size: 20px;
+  width: 100%;
+  max-width: 1300px;
 }
-#bit112-nav ul li a {
-  display: inline-block;
+#bit112-nav li {
+  float: left;
+}
+
+#bit112-nav li a {
+  display: block;
   color: black;
   text-align: center;
-  padding: 8px 20px;
+  padding: 8px 26px;
   text-decoration: none;
-  overflow: auto;
 }
-#bit112-nav li a:hover {
+
+#bit112-nav a:hover {
+  color: goldenrod;
+  background-color: black;
+}
+#bit112-nav a:active {
+  color: white;
   background-color: goldenrod;
 }
 #bit112-nav li {
-  border-left: 1px solid goldenrod;
-  display: inline-block;
-  overflow: auto;
-  padding:0px;
-  font-size: 20px;
-  float: none;
+  border-right: 1px solid black;
 }
-#bit112-nav li a:active {
-  background-color: white;
-}
+#bit112-nav ul {
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-width: 1300px;
+  }
 article {
       padding: 1em 1em 4em; }
 article img {
