@@ -396,7 +396,12 @@ a:active {
   text-decoration: none;
 }
 
-#bit112-nav li a:hover {
+#bit112-nav a:hover {
+  color: goldenrod;
+  background-color: black;
+}
+#bit112-nav a:active {
+  color: black;
   background-color: goldenrod;
 }
 #bit112-nav li {
