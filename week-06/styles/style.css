@@ -240,8 +240,8 @@ a:hover {
   text-decoration: none;
 }
 a:active {
-  color: gold;
-  background-color: #000000;
+  color: black;
+  background-color: gold;
   text-decoration: none;
 }
 
@@ -297,7 +297,7 @@ h1 {
   overflow: auto;
 }
 #bit112-nav li a:hover {
-  background-color: #240673;
+  background-color: white;
 }
 #bit112-nav li {
   border-left: 1px solid white;
