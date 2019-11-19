@@ -1,0 +1,453 @@
+
+<html lang="en">
+  <head>
+    <style>
+      html {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+      }
+      body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: 1.9em;
+        padding: 1em;
+      }
+      footer { 
+        border-top: 6px solid #999; 
+        margin-top: 3em;
+        padding-top: 2em;
+      }
+      /* I picked some really awful colors. Curious to see how many of you modify them. */
+      section h1 { 
+        background-color: #f8dea5;
+        padding: .5em;;
+        border-top: 5px solid #995c33;
+        border-radius: 10px;
+        margin-left: -.5em;
+        margin-right: -.5em;
+      }
+      header h1 {
+        background-color: #995c33;
+        color: #ccc;
+        padding: .5em;;
+        border-top: 5px solid #f8dea5;
+        border-radius: 10px;
+        margin-left: -1em;
+        margin-right: -1em;
+      }       
+      header nav ul {
+        list-style-type: none;
+        background-color: #f7c049;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      header nav ul li a {
+        color: #995c33;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li a:hover {
+        background-color: #f8dea5;
+      }
+      #project-plan dt {
+        border-top: 2px solid #000;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      #project-plan dd:last-child {
+        border-bottom: 6px solid #000;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        margin-left: inherit;
+        padding-left: 2em;
+      }
+      #development-guide ul li {
+        line-height: 1.5;
+      }
+      ul.structure,
+      ul.structure ul {
+        list-style: none;
+      }
+      ul.structure li.folder:before {
+        content: "\1F4C1";
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-right: 0.5em;
+      }
+      ul.structure li:before {
+        content: "\1f4c4";
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-right: 0.5em;
+      }
+      .colorcontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 1em;
+      }
+      .color-item {
+        border: 1px solid #000;
+        padding: 1em;
+        margin: 0.5em;
+      }
+      .color-chip {
+        width: 100px;
+        height: 100px;
+      }
+      dl.styles-guide dt {
+        font-weight: bold;
+        border-top: 1px dashed #333;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      .code {
+        font-family: "Courier New", Courier, monospace;
+        color: #993333;
+        font-size: 0.9em;
+        margin-left: 2em;
+      }
+      .highlight {
+        background-color: f7c049;
+        font-weight: bold;
+      }
+      img { width: 100%; }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Your site name</title>
+  </head>
+  <body>
+    <header>
+      <h1>Site: Your site name</h1>
+      <p>
+        Developer: Your name<br />
+        <!-- this will automatically update with the file date; no need to change it-->
+        <span id="modified"></span>
+        <!--end date section-->
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#project-plan">Project plan</a></li>
+          <li><a href="#development-guide">Development guide</a></li>
+          <li><a href="#design-guide">Design guide</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="project-plan">
+        <h1>Project plan</h1>
+        <dl>
+          <dt>Title</dt>
+          <dd><p>Your site name</p></dd>
+
+          <dt>Goal</dt>
+          <dd>
+            <p>
+              Why does this site exist? What's the point? 
+            </p>
+          </dd>
+          <dt>Target Audience</dt>
+          <dd>
+            <p>
+              Who's it for? 
+            </p>
+          </dd>
+          <dt>Main Features</dt>
+          <dd>
+            <p>
+              What's going to be on this site?
+            </p>
+          </dd>
+          <dt>Personality</dt>
+          <dd>
+            <p>What's the mood of the site?</p>
+            <p>How do you think it will affect the mood or view of visitors?</p>
+          </dd>
+          <dt>Limiting Factors</dt>
+          <dd>
+            <p>
+              What kind of constraints are you working under? For example, there's no time for you to learn to program an artificial intelligence by the end of the quarter, and you have no art budget.
+            </p>
+          </dd>
+        </dl>
+      </section>
+      <section id="development-guide">
+        <h1>Development guide</h1>
+        <h2>Site structure</h2>
+        <ul>
+          <li>
+            Root Directory
+            <ul>
+              <li>images directory – contains jpgs and gifs</li>
+              <li>styles directory – contains all of the style sheets</li>
+              <li>some other directory – contains what?</li>
+              <li>keep adding directories and descriptions till you're done</li>
+              <li>
+                index.html – home page for site, site purpose and overview
+              </li>
+              <li>
+                filename - description
+              </li>
+              <li>
+                filename - description
+              </li>
+              <li>
+                filename - description
+              </li>
+              <li>
+                keep adding filenames and descriptions till you're done
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <h2>Visual representation of site structure</h2>
+        <ul class="structure">
+          <!-- displays as page icon unless you use class="folder" -->
+          <li class="folder">
+            Root Directory
+            <ul>
+              <li class="folder">images directory – contains jpgs and gifs</li>
+              <li class="folder">
+                styles directory – contains all of the style sheets
+              </li>
+              <li class="folder">
+                some other directory – contains what?
+              </li>
+              <li class="folder">
+                some other directory – contains what?
+              </li>
+              <li>
+                index.html – home page for site, site purpose and overview
+              </li>
+              <li>
+                filename - description
+              </li>
+              <li>
+                filename - description
+              </li>
+              <li>
+                filename - description
+              </li>
+              <li>
+                filename - description
+              </li>
+              <li>
+                filename - description
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <h2>Navigation elements</h2>
+        <p>
+          Navigation – There is a navigation bar on <span class="highlight">(top/bottom/left/right/insert location here)</span> that links to all pages in the site.
+        </p>
+        <p>
+          (Secondary navigation if it exists, otherwise delete this paragraph)
+        </p>
+        <p>
+          Other navigation elements, if you're using them. This could be text and pictures that link to another page, a thumbnail navigation bar on the side, etc.
+        </p>
+        <h3>Navigation structure</h3>
+        <ul>
+          <li>Home</li>
+          <li>
+            Page name or description
+            <ul>
+              <li>
+                What navigation will be on this page? (Number of links to other pages or websites)
+              </li>
+            </ul>
+          </li>
+          <li>
+            Page name or description
+            <ul>
+              <li>
+                  What navigation will be on this page? (Number of links to other pages or websites)
+              </li>
+            </ul>
+          </li>
+          <li>
+              Page name or description
+              <ul>
+                <li>
+                    What navigation will be on this page? (Number of links to other pages or websites)
+                </li>
+              </ul>
+            </li>
+            <li>
+                Page name or description
+                <ul>
+                  <li>
+                      What navigation will be on this page? (Number of links to other pages or websites)
+                  </li>
+                </ul>
+              </li>
+              <li>
+                  Page name or description
+                  <ul>
+                    <li>
+                        What navigation will be on this page? (Number of links to other pages or websites)
+                    </li>
+                  </ul>
+                </li>
+        </ul>
+        <h2>HTML template</h2>
+        <p>
+          I will be basing my pages on <span class="highlight">(link to your own example template, not to mine)</span> 
+          <a href="https://github.com/alboss-cascadia/bit112-fall-2019/blob/master/example.html">this HTML template</a>.
+        </p>
+        <h2>Wireframe site</h2>
+        <p>
+            <span class="highlight">These (Link to your wireframes) wireframes</span> let you navigate
+          the basic structure of my site.
+        </p>
+      </section>
+      <section id="design-guide">
+        <h1>Design guide</h1>
+        <h2>Color Palette</h2>
+        <p>
+          The following is the list of colors that may be used. Tints or changes
+          in opacity may also be used as long as they compliment each other.
+        </p>
+        <p><span class="highlight">Replace the color values with your own colors. Leave the rest of the code alone unless you really want to recode it.</span></p>
+        <div class="colorcontainer">
+          <div class="color-item">
+            <p>Light Yellow</p>
+            <p>#FFFFCC</p>
+            <div class="color-chip" style="background-color: #FFFFCC"></div>
+          </div>
+          <div class="color-item">
+            <p>Light Blue</p>
+            <p>#6699CC</p>
+            <div class="color-chip" style="background-color: #6699CC"></div>
+          </div>
+          <div class="color-item">
+            <p>Dark Blue</p>
+            <p>#003366</p>
+            <div class="color-chip" style="background-color: #003366"></div>
+          </div>
+          <div class="color-item">
+            <p>Gray</p>
+            <p>#333333</p>
+            <div class="color-chip" style="background-color: #333333"></div>
+          </div>
+          <div class="color-item">
+            <p>Sea Blue</p>
+            <p>#336699</p>
+            <div class="color-chip" style="background-color: #336699"></div>
+          </div>
+          <div class="color-item">
+            <p>Burgundy</p>
+            <p>#993333</p>
+            <div class="color-chip" style="background-color: #993333"></div>
+          </div>
+        </div>
+
+        <h2>Media assets</h2>
+        <h3>General Guidelines</h3>
+        <ul>
+          <li>
+            <p><span class="highlight">Example text:</span> Images optimized as JPG using the Photoshop save for web feature to
+            determine the best choice. Photos generally saved as JPG.</p>
+            <p>(List image names here.)</p>
+          </li>
+          <li>List images that are in public domain</li>
+          <li>List copyrighted images used with permission</li>
+          <li>Mention if any photos or images are your own</li>
+        </ul>
+        <h2>Styles guide 
+          <span class="highlight">
+            (Change this content so it matches your own plan, not mine)
+        </span>
+      </h2>
+        <dl class="styles-guide">
+          <dt>Background</dt>
+          <dd>
+            <p>Background is light yellow</p>
+            <p class="code">{background-color: #FFFFCC}</p>
+          </dd>
+          <dt>Default font</dt>
+          <dd>
+            <p>Text is dark blue, 14 pixels</p>
+            <p class="code">p { font-size: 14px; color: #003366;}</p>
+          </dd>
+          <dt>Header</dt>
+          <dd>
+            <p>
+              The header section is 235px tall, positioned along the top of each page with the 
+              logo centered in the frame. The background is Sea Blue.
+            </p>
+            <p class="code">
+              header { <br>height: 235px; <br>background-color: #336699; <br>
+                background-image: url("/images/whale.png"); <br>background-repeat: no-repeat; <br>
+                background-position: center; <br>background-size: cover;<br>}</p>
+          </dd>
+          <dt>Navigation</dt>
+          <dd>
+            <p>
+                The main navigation is 120px tall, positioned just below the header with a 
+                background color of Light Yellow and Dark Blue font color.
+            </p>
+            <p class="code">
+              nav { height: 120px; background-color: #ffffcc; color: #003366; }
+            </p>
+          </dd>
+          <dt>Images</dt>
+          <dd>
+            <p>
+              Images will be over light blue background with a grey border
+              around the container
+            </p>
+            <p class="code">
+              figure { background-color: 6699CC; border: 2px solid #333333; }
+            </p>
+            <p class="code">img { padding: 1em; }</p>
+          </dd>
+          <dt>Links</dt>
+          <dd>
+            <p>
+              Links will be burgundy. On hover, they will have a light blue
+              background and a blue border.</p>
+            </p>
+            <p class="code">a { color: #993333 }</p>
+            <p class="code">a:hover { background-color: #6699CC; border 2px dotted #336699; }</p>
+          </dd>
+        </dl>
+        <h2>Layout sketch</h2>
+        <img src="layout.png" alt="Site layout sketch; email me for details if you can't see it">
+      </section>
+    </main>
+    <footer>
+      &copy;Your name here, other credits if necessary
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- Script below includes file date update -->
+
+    <script>
+      includeHTML();
+      // get last updated date as a new date object
+      var modDate = new Date(document.lastModified);
+      // set up some formatting options
+      var options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      };
+      // format it
+      var modDateString = modDate.toLocaleDateString("en-US", options);
+      // display it in the document
+      document.getElementById("modified").innerHTML =
+        "Updated: " + modDateString;
+    </script>
+  </body>
+</html>
