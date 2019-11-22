@@ -1,0 +1,193 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Search Engine Report</title>
+    <style>
+      html {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 10px;
+      }
+      body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: 1.9em;
+        padding: 1em;
+      }
+      footer {
+        border-top: 6px solid #999;
+        margin-top: 3em;
+        padding-top: 2em;
+      }
+      header h1 {
+        background-color: #336699;
+        color: #ccc;
+        padding: 0.5em;
+        border-top: 5px solid #6699cc;
+        border-radius: 10px;
+        margin-left: -1em;
+        margin-right: -1em;
+      }
+      header nav ul {
+        list-style-type: none;
+        background-color: #999;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      header nav ul li a {
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li a:hover {
+        background-color: #666;
+      }
+      #project-plan dt {
+        border-top: 2px solid #000;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      #project-plan dd:last-child {
+        border-bottom: 6px solid #000;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        margin-left: inherit;
+        padding-left: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Search engine report</h1>
+      <div w3-include-html="nav.html"></div>
+      <!-- reference the location of your nav.html -->
+    </header>
+    <main>
+      <section>
+        <dl>
+          <dt>How does a search engine work?</dt>
+          <dd>Your answer here</dd>
+          <dt>
+            Why do different search-engines give different ranking to websites
+            for the same search phrase?
+          </dt>
+          <dd>Your answer here</dd>
+          <dt>What is a &lt;meta /&gt; tag?</dt>
+          <dd>Your answer here</dd>
+          <dt>What is the purpose for Keyword and Description meta tags?</dt>
+          <dd>Your answer here</dd>
+          <dt>Why might you include meta tags in your pages?</dt>
+          <dd>Your answer here</dd>
+          <dt>
+            Do meta tags make your pages more easily searchable or improve its
+            ranking?
+          </dt>
+          <dd>Your answer here</dd>
+          <dt>
+            What are several ways that you can publicize your personal website
+            project and make it more visible on the web?
+          </dt>
+          <dd>Your answer here</dd>
+        </dl>
+      </section>
+
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th></th>
+              <th>URL</th>
+              <th>Words used in page titles and headings</th>
+              <th>
+                Words used in <em>Description</em> meta tags <br /><span
+                  class="smaller"
+                  >(or "none" if no description tags are used)</span
+                >
+              </th>
+              <th>
+                Words used in <em>Keyword</em> meta tags <br /><span
+                  class="smaller"
+                  >(or "none" if no keyword tags are used)</span
+                >
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Site 1</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Site 2</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>Site 3</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <dl>
+          <dt>
+            Based on your research, suggest appropriate updates to your
+            website's titles and headings.
+          </dt>
+          <dd>Your suggestions here</dd>
+          <dt>
+            Based on your research, create a Description meta tag and a Keywords
+            meta tag (and an Author meta tag) for inclusion your site.
+          </dt>
+          <dd>
+            <p><strong>Description:</strong></p>
+            <p>Your Description meta tag</p>
+          </dd>
+          <dd>
+            <p><strong>Keywords:</strong></p>
+            <p>Your Keywords meta tag</p>
+          </dd>
+          <dd>
+            <p><strong>Author:</strong></p>
+            <p>Your Author meta tag</p>
+          </dd>
+          <dt>
+            List three techniques to publicize your site that makes sense for
+            its purpose and its audience.
+          </dt>
+          <dd>
+            <p>One</p>
+            <p>Two</p>
+            <p>Three</p>
+          </dd>
+        </dl>
+      </section>
+    </main>
+    <footer>
+      &copy;not Al Boss; put your own name here!
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- If you are wanting to use includes throughout your site, you'll have to change the above link to be whatever 
+      location your script is in. For me, it would be "/bit112-fall-2019/scripts/includes.js" because my site is 
+      https://alboss-cascadia.github.io/bit112-fall-2019/ -->
+
+    <script>
+      includeHTML();
+    </script>
+  </body>
+</html>
