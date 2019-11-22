@@ -63,35 +63,114 @@
   <body>
     <header>
       <h1>Search engine report</h1>
-      <div w3-include-html="nav.html"></div>
+      <div w3-include-html="../nav.html"></div>
       <!-- reference the location of your nav.html -->
     </header>
     <main>
       <section>
         <dl>
           <dt>How does a search engine work?</dt>
-          <dd>Your answer here</dd>
+          <dd>
+              <p>/p>A search engine works in 3 stages, crawling, index and rank.   
+              The first step, crawling, is done prior to a search happening and works as a 
+              process of discovery using robots.  (also known as spiders…shudders) These 
+              robots discover content by following links.   The way it works is the crawl-bots 
+              discover a URL and then crawl through the site following it’s navigation and then 
+              following links to other pages and branching out from there to find yet more sites 
+              in an exponential process.  </p>
+               <p> The links create a path and these results are stored in the search engine index 
+                using algorithms (these are a collection of formulas and processes that determine 
+                how the information is stored.    
+                The search engine index is a database containing all the discovered content 
+                that is deemed by the crawlers to be search worthy.   This content is then ranked 
+                according to a number of factors, including the content of the site itself, links 
+                leading to the site (this is kind of like word of mouth or referrals) as well as 
+                the internal navigation of the site.   </p> <cite><a href="https://moz.com/beginners-guide-to-seo/how-search-engines-operate">moz.com <i>how search engines operate</i></a></cite>
+                </dd>
           <dt>
             Why do different search-engines give different ranking to websites
             for the same search phrase?
           </dt>
-          <dd>Your answer here</dd>
+          <dd>Depending on the search engine, different priorities are placed on elements 
+              of what the page contains.  For example, Google is very text driven with it’s rankings.  
+              Versus Bing, which may place more of a priority on images representing the search term.  
+               They also deal with keywords, differently, either by direct matches or by context, meaning 
+               the content behind the keyword.  Meta keywords are also used with the exception of google, 
+               who has stated they will not use them.  On top of this, backlinks, or links from other 
+               websites to the one being indexed, are dealt with differently.  Google 
+               (the most used search engine by far which is why it keeps ending up being my example) 
+               values the quantity of the back link, meaning how reputable the site is that provided it.  
+                (basically how good is the referral) Other search engines such as Bing use both quality of
+                 back links and also quantity, so the more backlinks the higher  the ranking.   
+                 <cite><a href=” https://curatti.com/seo-differences-various-search-engines/>curatti.com <i>seo differences between google and other search engines</i></a></cite></dd>
           <dt>What is a &lt;meta /&gt; tag?</dt>
-          <dd>Your answer here</dd>
+          <dd>Meta is described as data (information) about data.   
+              (according to w3schools.com) Meta is snippits of content
+               within the page used to alert search engines.   The meta tags 
+               are like flags to the search engine as to what the page is about.   
+                Keyword meta tags are exactly as they sound, keywords placed in 
+                the meta that are used to attract search engines. The idea with keyword meta tags is that they
+                should be able to be read and give a general idea of what the site is about
+                Due to over-use of keyword meta tags, Google no longer uses them as a part of its 
+                 ranking algorithm because marketers found they could “over-stuff” 
+                 their site with meta keywords of whatever was trending.   
+                Description meta tags are much more useful because they are used to 
+                explain what the site is about or describe it briefly, in fact it cant be too long because search engines only 
+                read them and only do so briefly.  Description meta tags are a summary of the site.
+                These are also visible to the searcher through the search results which could lure traffic
+                  based on the description.   <cite>
+                      <a href="https://www.wordstream.com/meta-tags">wordstream.com <i>meta-tags</i></a>
+                  </cite>
+                </dd>
           <dt>What is the purpose for Keyword and Description meta tags?</dt>
-          <dd>Your answer here</dd>
+          <dd>The main purpose is to get the page they are being used on raked higher in the search
+              engine results.
+          </dd>
           <dt>Why might you include meta tags in your pages?</dt>
-          <dd>Your answer here</dd>
+          <dd>A description tag in my page would help the person reading their search results to know that my site 
+              is the link they are looking for.  A seach for similar terms or shortened (for example googling "town fire" instead of "town fire department")
+              will have different results and while the site may be included in the results of the search, the 
+              description tag as well as a keyword of "town" or "town fire" and/or "town fire department" will help the 
+              user recognize the desired link.  
+          </dd>
           <dt>
             Do meta tags make your pages more easily searchable or improve its
             ranking?
           </dt>
-          <dd>Your answer here</dd>
+          <dd>While meta tags improve the users search experienece and get "clicks", (click through rates is a term I've come 
+              across, meaning people who click on the site), according to Google, they do not actually impact search engine rankings. 
+              so they make the site more easily searchable but do not improve it's ranking.
+          </dd>
           <dt>
             What are several ways that you can publicize your personal website
             project and make it more visible on the web?
           </dt>
-          <dd>Your answer here</dd>
+          <dd>Ways to publicize my personal website include:
+              <ul>
+                  <li>
+                      <p>
+                          <em>Search engine optimization</em>-This is done by using keywords and phrases through the site 
+                          as well as meta tags and alt text to images.  Content should be meaningful and not repeatitive.   
+                          other things that can be done include image optimization, use header tags and even submit a site map to google.
+                      </p>
+                  </li>
+                  <li>
+                      <p>
+                          <em>social media marketing</em>-While marketing a fire deparmtent may sound like an odd idea,
+                          the world runs through social media these days.  The deparmtment does have a social media platform 
+                          and may be starting another soon.  The site will be linked through those.
+                      </p>
+                  </li>
+                  <li>
+                      <p>
+                          <em>Content</em>- If there is one thing I have taken away from this research (there is a ton more than that)
+                          It's that content is the best way to grab attention.  But there are a couple of things to avoid. Low quality 
+                          content and repeatitive content will actually get the site ranked lower so that's to be avoided.   Non accessable
+                          content and poorly coded sites also get pushed down the search rankings.  So, quality content is a big part of it.
+                      </p>
+                  </li>
+                </ul>
+          </dd>
         </dl>
       </section>
 
@@ -177,7 +256,7 @@
       </section>
     </main>
     <footer>
-      &copy;not Al Boss; put your own name here!
+      &copy;Bradley Ives
     </footer>
     <!-- Enable includes -->
     <script src="../scripts/includes.js"></script>
