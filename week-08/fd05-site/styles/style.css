@@ -428,12 +428,5 @@ html {
     list-style-type: none;
     background-color: #A91413;
   }
-  #nav a:hover {
-    color: red;
-    background-color: white;
-  }
-  #nav a:active {
-    color: white;
-    background-color: red;
-  }
+
     
