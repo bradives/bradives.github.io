@@ -410,21 +410,24 @@ html {
     padding: 1em;
   }
   header {
-    background-image: url("images/banner.jpg");
-    height: 280px;
-    background-repeat: no-repeat;
+
+
+ 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpg");
+  
+
+    height: 50%;
+  
+
     background-position: center;
-    margin:auto;
+    background-repeat: no-repeat;
     background-size: cover;
-    display:block; 
-    width:100%; 
+    position: relative;
     text-align:center;
   }
 
-  body {
-    background-color: darkslategray;
-  }
-  .footer {
+
+  footer {
     background-color: 6px solid black;
     margin-top: 3em;
     padding-top: 2em;
