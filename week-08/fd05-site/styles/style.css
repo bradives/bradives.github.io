@@ -1,0 +1,15 @@
+html {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 14px;
+  }
+  body {
+    max-width: 1300px;
+    margin: auto;
+    font-size: 2.0em;
+    padding: 1em;
+  }
+  footer {
+    border-top: 6px solid #999;
+    margin-top: 3em;
+    padding-top: 2em;
