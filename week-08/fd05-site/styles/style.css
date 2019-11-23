@@ -10,7 +10,7 @@ html {
     font-size: 2.0em;
     padding: 1em;
   }
-  footer {
+  .footer {
     background-color: 6px solid black;
     margin-top: 3em;
     padding-top: 2em;
@@ -20,7 +20,7 @@ html {
   }
   header nav ul li a {
     color: #fff;
-    display: block;
+    display: inline-block;
     text-decoration: none;
     padding: 10px;
   }
