@@ -419,7 +419,8 @@ html {
   }
   #nav ul li a {
     color: #fff;
-    display: inline-block;
+    display: block;
+    justify-content: space-between;
     text-decoration: none;
     padding: 10px;
   }
