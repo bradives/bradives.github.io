@@ -428,18 +428,18 @@ html {
     list-style-type: none;
     background-color: #A91413;
   }
-#main-nav  a:hover {
+nav  a:hover {
     color: #A91413;
     background-color: white;
   }
- #main-nav a:active {
+ nav a:active {
     color: white;
     background-color:#A91413;
   }
   a:focus {
-      outline-color: 1px solid red;
+      outline: 1px solid red;
   }
-  #main-nav {
+  nav {
       clear: both;
   }
     
