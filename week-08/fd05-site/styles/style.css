@@ -439,4 +439,7 @@ html {
   a:focus {
       outline-color: 1px solid red;
   }
+  #nav {
+      clear: both;
+  }
     
