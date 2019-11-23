@@ -15,16 +15,25 @@ html {
     margin-top: 3em;
     padding-top: 2em;
   }
-  header nav ul li {
+  #nav ul li {
     display: inline-block;
   }
-  header nav ul li a {
+  #nav ul li a {
     color: #fff;
     display: inline-block;
     text-decoration: none;
     padding: 10px;
   }
-  header nav ul {
+  #nav ul {
     list-style-type: none;
     background-color: #A91413;
   }
+  #nav a:hover {
+    color: red;
+    background-color: white;
+  }
+  #nav a:active {
+    color: white;
+    background-color: red;
+  }
+    
