@@ -414,17 +414,17 @@ html {
     margin-top: 3em;
     padding-top: 2em;
   }
-  #nav ul li {
+  nav ul li {
     display: inline-block;
   }
-  #nav ul li a {
+  nav ul li a {
     color: #fff;
     display: block;
     justify-content: space-between;
     text-decoration: none;
     padding: 10px;
   }
-  #nav ul {
+  nav ul {
     list-style-type: none;
     background-color: #A91413;
   }
