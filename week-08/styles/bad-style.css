@@ -4,9 +4,40 @@ html {
 }
 body {
     background-color: purple;
+    color: #ff6ec7;
 }
  h1 {
      font-size: x-large ;
      font-weight: bold;
      color: #ff6ec7 ;
+ }
+
+ ul li {
+     list-style-type: none;
+
+ }
+ li a {
+     display: block;
+     width: max-content;
+     height: 5em;
+     font: menu;
+     text-decoration: black;
+     color: #ff6ec7;
+     line-height: 5em;
+     padding: 1em 0 1em 0;
+     margin-bottom: .2em;
+     border-bottom: .125em dotted purple;
+
+ }
+ li a:hover {
+     color: #ff6ec7;
+ }
+ li:last-child a{
+border-bottom: none;
+ }
+ footer {
+     position: sticky;
+     border: #1b03a3;
+         
+     
  }
