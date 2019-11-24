@@ -35,6 +35,9 @@ body {
  li:last-child a{
 border-bottom: none;
  }
+ img {
+width: max-content;
+ }
  footer {
      position: sticky;
      border: #1b03a3;
