@@ -40,10 +40,27 @@ width: max-content;
  }
  footer {
      position: sticky;
-     border: #1b03a3;
+     background-color: #1b03a3;
          
      
  }
  #thirdwish {
      color: #1b03a3;
+ }
+ a:link {
+     color: #ff6ec7;
+     text-decoration: none;
+ }
+ a:visited {
+     color: #ff6ec7;
+ }
+ a:focus
+ {
+     outline: 1px solid #ff6ec7;
+     padding: -.02em;
+
+ }
+ a:hover {
+     color: #ff6ec7;
+     background-color: #ff6ec7;
  }
