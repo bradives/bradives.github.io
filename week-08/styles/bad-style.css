@@ -1,4 +1,13 @@
 html {
     font-size: x-small;
-    background-image: url(images/unicorn-wallpaper.jpg);
+
 }
+body {
+    background-image: url(images/unicorn-wallpaper.jpg);
+    background-color: purple;
+}
+ h1 {
+     font-size: x-large ;
+     font-weight: bold;
+     color: #ff6ec7 ;
+ }
