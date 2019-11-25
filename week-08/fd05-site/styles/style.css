@@ -528,24 +528,24 @@ ul li ul:focus {
 }
 #units-sidebar ul, li, a{
   height: 100%;
-  width: 160px;
+  width: 270px;
   position: fixed; 
   z-index: 1; 
-  top: 0; 
+  top: 210px; 
   left: 0;
+  text-align: left;
   overflow-x: hidden; 
   padding-top: 20px;
 }
 #units-sidebar li a {
 	display: block;
 	width: 8em;
-	line-height: 2em;
+	line-height: 1.5em;
 	font-size: 1em;
 	text-decoration: none;
 	background:  #A91413;
 	color: white;
 	padding: .2em 0 .2em 1em;
-	border-bottom: .125em solid white;
 }
 #units-sidebar li a:hover, li a:focus {
 	background: #A91450;
