@@ -369,7 +369,7 @@ body {
 
 
 /*all nav styling starts here*/
-ul.topnav {
+#main-nav ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -377,9 +377,9 @@ ul.topnav {
   background-color: #A91413;
 }
 
-ul.topnav li {float: left;}
+#main-nav ul.topnav li {float: left;}
 
-ul.topnav li a {
+#main-nav ul.topnav li a {
   display: block;
   color: white;
   text-align: center;
@@ -387,18 +387,18 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #A91413;}
+#main-nav ul.topnav li a:hover:not(.active) {background-color: #A91413;}
 
-ul.topnav li a.active {background-color: black;}
+#main-nav ul.topnav li a.active {background-color: black;}
 
-ul.topnav li.right {float: right;}
+#main-nav ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
+  #main-nav ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
 /*header styling*/
-header {
+.header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/banner.jpg");
 
