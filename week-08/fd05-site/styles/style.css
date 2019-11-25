@@ -366,6 +366,7 @@ body {
 	padding: 1em;
 }
 
+
 /*all nav styling starts here*/
 ul.topnav {
   list-style-type: none;
@@ -395,6 +396,9 @@ ul.topnav li.right {float: right;}
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
+/*header styling*/
+
+
 /*main content styling*/
 img {
 	width: 80%;
@@ -405,7 +409,7 @@ img {
 	margin-right: auto;
 }
 
-/*footer styles*/
+/*footer styling*/
 footer {
 	background-color: black;
 }
