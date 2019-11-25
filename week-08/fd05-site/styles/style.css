@@ -444,14 +444,7 @@ html {
  #main-nav nav {
       clear: both;
   }
- header img {
-    width: 80%;
-    max-width: 1400px;
-    padding: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   /*button drop-down*/
   
 
@@ -553,6 +546,15 @@ ul li ul:focus {
 }
 #units-sidebar li:last-child a {
 	border-bottom: none;
+}
+/*main content styling*/
+img {
+  width: 80%;
+  max-width: 1400px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
