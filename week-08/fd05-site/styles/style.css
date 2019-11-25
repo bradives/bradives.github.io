@@ -400,7 +400,7 @@ ul.topnav li.right {float: right;}
 /*header styling*/
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/banner.jpg");
+    url("../images/banner.jpg");
 
   height: auto;
   max-height: 250px;
