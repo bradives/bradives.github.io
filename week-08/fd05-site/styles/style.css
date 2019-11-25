@@ -402,6 +402,7 @@ html {
       sans-serif;
     font-size: 14px;
     color: white;
+    width: 100%;
     max-width: 1400px;
   }
   body {
@@ -528,7 +529,7 @@ ul li ul:focus {
 	padding: 0;
 	list-style: none;
 }
-#units-sidebar {
+#units-sidebar ul, li, a{
   height: 100%;
   width: 160px;
   position: fixed; 
