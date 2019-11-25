@@ -417,33 +417,60 @@ html {
     margin-top: 3em;
     padding-top: 2em;
   }
-  nav ul li {
-    display: inline-block;
-  }
-  nav ul li a {
-    color: #fff;
-    display: block;
-    justify-content: space-between;
-    text-decoration: none;
-    padding: 10px;
-  }
-  nav ul {
-    list-style-type: none;
-    background-color: #A91413;
-  }
-nav  a:hover {
-    color: #A91413;
-    background-color: white;
-  }
- nav a:active {
-    color: white;
-    background-color:#A91413;
-  }
-  a:focus {
-      outline: 1px solid red;
-  }
-  nav {
-      clear: both;
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+/*horizontal menu styles*/	
+nav {
+	background: #A91413;
+	height: 2.3em;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+ul {
+	background: #000;
+	height: 2em;
+	width: 100%;
+}
+li a {
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	color: white;
+	text-decoration: none;
+}
+li a:hover {
+	background: #A91413;
+	height: 2em;
+	padding-top: .3em;
+	position: relative;
+	top: -.3em;
+	border-radius: .3em .3em 0 0;
+}
+.current, a:hover.current  {
+	background: #C32E2D;
+	color: #eee;
+	padding-top: .3em;
+		position: relative;
+	top: -.3em;
+	border-bottom: .3em solid lightslategrey;
+	cursor: default;
+}
   }
   img {
     width: 80%;
