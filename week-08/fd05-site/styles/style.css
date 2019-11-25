@@ -396,7 +396,7 @@
 
 
 
-
+/*setting global styles*/
 html {
     font-family: " Raleway", "Trebuchet MS",
       sans-serif;
@@ -414,11 +414,7 @@ html {
   }
 
 
-  footer {
-    background-color: 6px solid black;
-    margin-top: 3em;
-    padding-top: 2em;
-  }
+
   /*all nav styling starts here*/
  #main-nav nav ul li {
     display: inline-block;
@@ -556,4 +552,13 @@ ul li ul:focus {
 }
 #units-sidebar li:last-child a {
 	border-bottom: none;
+}
+
+
+
+/*footer styles*/
+footer {
+  background-color: 6px solid black;
+  margin-top: 3em;
+  padding-top: 2em;
 }
