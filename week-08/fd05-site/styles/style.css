@@ -528,6 +528,16 @@ ul li ul:focus {
 	padding: 0;
 	list-style: none;
 }
+#units-sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
 #units-sidebar li a {
 	display: block;
 	width: 8em;
