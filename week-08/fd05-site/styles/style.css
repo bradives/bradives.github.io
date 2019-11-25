@@ -444,7 +444,7 @@ html {
  #main-nav nav {
       clear: both;
   }
-  img {
+ header img {
     width: 80%;
     max-width: 1400px;
     padding: 5px;
@@ -559,7 +559,6 @@ ul li ul:focus {
 
 /*footer styles*/
 footer {
-  background-color: 6px solid black;
-  margin-top: 3em;
-  padding-top: 2em;
+  background-color:  black;
+
 }
