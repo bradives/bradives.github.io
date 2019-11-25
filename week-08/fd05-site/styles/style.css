@@ -522,4 +522,23 @@ ul li ul li {
   width: 100%;
 }
 
-
+/*vertical menu styles*/
+#units-sidebar ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#units-sidebar li a {
+	display: block;
+	width: 8em;
+	line-height: 2em;
+	font-size: 1em;
+	text-decoration: none;
+	background:  #A91413;
+	color: white;
+	padding: .2em 0 .2em 1em;
+	border-bottom: .125em solid white;
+}
+#units-sidebar li a:hover, li a:focus {
+	background: #A91450;
+}
