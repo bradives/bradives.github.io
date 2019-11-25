@@ -415,7 +415,7 @@ html {
 
 
 
-  /*all nav styling starts here*/
+  /*all nav styling starts here
  #main-nav nav ul li {
     display: inline-block;
   }
@@ -445,7 +445,7 @@ html {
       clear: both;
   }
 
-  /*button drop-down*/
+
   
 
 a {
@@ -513,7 +513,7 @@ ul li ul:focus {
   width: 100%;
 }
 
-/*vertical menu styles*/
+/*vertical menu style
 #units-sidebar ul, li {
 	margin: 0;
 	padding: 0;
