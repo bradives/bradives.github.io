@@ -417,32 +417,33 @@ html {
     margin-top: 3em;
     padding-top: 2em;
   }
-  nav ul li {
+  /*all nav styling starts here*/
+ #main-nav nav ul li {
     display: inline-block;
   }
-  nav ul li a {
+ #main-nav nav ul li a {
     color: #fff;
     display: block;
     justify-content: space-between;
     text-decoration: none;
     padding: 10px;
   }
-  nav ul {
+ #main-nav nav ul {
     list-style-type: none;
     background-color: #A91413;
   }
-nav  a:hover {
+#main-nav nav  a:hover {
     color: #A91413;
     background-color: white;
   }
- nav a:active {
+#main-nav nav a:active {
     color: white;
     background-color:#A91413;
   }
   a:focus {
       outline: 1px solid red;
   }
-  nav {
+ #main-nav nav {
       clear: both;
   }
   img {
