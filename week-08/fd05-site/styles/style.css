@@ -363,7 +363,8 @@ body {
 	width: 100%;
 	margin: auto;
 	font-size: 2em;
-	padding: 1em;
+  padding: 1em;
+  background-color: darkslategray;
 }
 
 
@@ -397,6 +398,22 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 /*header styling*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/banner.jpg");
+
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 1400px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
 
 
 /*main content styling*/

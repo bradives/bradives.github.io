@@ -1,112 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles/style.css" />
-    <meta name="viewport" content="width=device-width" />
-    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <meta charset="utf-8" />
-    <title>Sultan Fire Department</title>
-    <style>
-          header {
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<meta charset="utf-8" />
+		<title>Sultan Fire Department</title>
+	</head>
+	<body>
+		<header role="banner" class="header">
+			<h1>Welcome to Sultan Fire Deparment</h1>
+			<div w3-include-html="nav.html"></div>
+		</header>
+		<main role="main">
+			<article>
+				<section id="news">
+					<h2>Department News</h2>
+					<ul>
+						<li>
+							<h3>
+								Sultan Fire Gets new webpage
+							</h3>
+							<p>
+								A long anticipated remodel has finally been finished! The
+								department recongized the need for an updated media outlet
+								and information source for it's citizens and in
+								partnership with &copy; IMWD, this site was designed to
+								fit those needs. Welcome!!
+							</p>
+						</li>
+						<li>
+							<h3>
+								Free blood pressure checks!!
+							</h3>
+							<p>
+								The department is offering free blood-pressure checks!
+								Feel free to stop and any one of our qualified
+								firefighter/EMT's check your blood pressure during normal
+								buisness hours (8 AM to 8 PM). It's free and you don't
+								need a pre-existing condition. In fact, checking your
+								blood-pressure may be an early warning aganist devloping
+								conditions invloving blood pressure!! Come see us!
+							</p>
+						</li>
+					</ul>
+				</section>
+				<aside id="burn-ban">
+					<h2>Current Burn Ban Status:</h2>
+					<p>
+						Currently there is no burn ban. For county wide burning
+						information and regulation please visit
+						<a
+							href="https://snohomishcountywa.gov/1144/Outdoor-Burning-Information"
+							title="Snohomish County Fire Marshals Burning Information"
+							>The Snohomish county fire marshal's office.</a
+						>
+					</p>
+					<section id="recruitment">
+						<h2>Interested in becoming a firefighter?</h2>
+						<p>
+							Sultan Fire is dependant on our part-time and volunteer
+							Firefighter/EMT's. They work alongside our full time
+							Firefighters to form the staffing needed to effectivly respond
+							to our community. Working as a volunteer or part-time
+							firefighter/EMT is a very rewarding experience for those
+							interested in persuing a career in the fire service and
+							gaining experience in this field or simply looking to serve
+							their community! Interested? <br />
+							<a href="recruitment.html" title="Go to recruitment"
+								><b>Join Us!</b></a
+							>
+						</p>
+					</section>
+					<div id="scanner"></div>
+				</aside>
+			</article>
+		</main>
+		<footer role="contentinfo" class="footer">
+			&copy;SCFD 05
+			<a href="contact-us.html" target="_blank">contact us</a>
+			<a href="faq.html" target="_blank">FAQ</a>
+		</footer>
+		<!-- Enable includes -->
+		<script src="../scripts/includes.js"></script>
 
-
- 
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/banner.jpg");
-
-
-height: auto;
-max-height: 250px;
-width: auto;
-max-width: 1400px;
-
-
-
-
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-text-align:center;
-}
-      body {
-    background-color: darkslategray;
-  }
-
-    </style>
-  </head>
-  <body>
-    <header role="banner" class="header">
-      <h1>Welcome to Sultan Fire Deparment</h1>
-      <div w3-include-html="nav.html"></div>
-    </header>
-    <main role="main">
-      <article>
-        <section id="news">
-          <h2>Department News</h2>
-          <ul>
-            <li>
-              <h3>
-                Sultan Fire Gets new webpage
-              </h3>
-              <p>
-                A long anticipated remodel has finally been finished! The department recongized the need for
-                an updated media outlet and information source for it's citizens and in partnership with &copy; IMWD,
-                this site was designed to fit those needs.  Welcome!!
-              </p>
-            </li>
-            <li>
-              <h3>
-                Free blood pressure checks!!
-              </h3>
-              <p>
-                The department is offering free blood-pressure checks! Feel free to stop and any one of our qualified 
-                firefighter/EMT's check your blood pressure during normal buisness hours (8 AM to 8 PM).    It's free and you don't need a pre-existing condition.  
-                In fact, checking your blood-pressure may be an early warning aganist devloping conditions invloving blood 
-                pressure!! Come see us!
-              </p>
-            </li>
-          </ul>
-          
-        </section>
-        <aside id="burn-ban">
-            <h2>Current Burn Ban Status:</h2>
-            <p>
-                Currently there is no burn ban. For county wide burning information and regulation please visit 
-                <a href="https://snohomishcountywa.gov/1144/Outdoor-Burning-Information" Title="Snohomish County Fire Marshals Burning Information">The Snohomish county fire marshal's office.</a>
-            </p>
-            <section id="recruitment">
-                <h2>Interested in becoming a firefighter?</h2>
-                <p>
-                    Sultan Fire is dependant on our part-time and volunteer Firefighter/EMT's.  They work alongside 
-                    our full time Firefighters to form the staffing needed to effectivly respond to our community.  
-                    Working as a volunteer or part-time firefighter/EMT is a very rewarding experience for those interested 
-                    in persuing a career in the fire service and gaining experience in this field or simply looking to serve
-                    their community!   
-                    Interested?  <br> 
-                    <a href="recruitment.html" Title="Go to recruitment"><b>Join Us!</b></a>  
-                </p>
-            </section>
-            <div id="scanner">
-                
-
-
-            </div>
-        
-        </aside>
-
-      </article>
-
-    </main>
-    <footer role="contentinfo" class="footer">
-      &copy;SCFD 05
-      <a href="contact-us.html" target="_blank">contact us</a>
-      <a href="faq.html" target="_blank">FAQ</a>
-    </footer>
-    <!-- Enable includes -->
-    <script src="../scripts/includes.js"></script>
-
-    <script>
-      includeHTML();
-    </script>
-  </body>
+		<script>
+			includeHTML();
+		</script>
+	</body>
 </html>
