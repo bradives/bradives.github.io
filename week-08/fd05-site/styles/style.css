@@ -465,7 +465,7 @@ nav {
 }
 
 ul {
-  background: darkorange;
+  background: #A91413;
     list-style: none;
     margin: 0;
     padding-left: 0;
@@ -473,7 +473,7 @@ ul {
 
 li {
     color: #fff;
-  background: darkorange;
+  background: #A91413;
     display: block;
     float: left;
     padding: 1rem;
@@ -497,7 +497,7 @@ li:focus-within a {
 }
 
 ul li ul {
-    background: orange;
+    background: #A91413;
     visibility: hidden;
   opacity: 0;
   min-width: 5rem;
