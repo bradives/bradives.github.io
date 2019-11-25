@@ -363,65 +363,58 @@ body {
 	width: 100%;
 	margin: auto;
 	font-size: 2em;
-	padding: 1em;
-	background-color: darkslategray;
+  padding: 1em;
+  background-color: darkslategray;
 }
+
 
 /*all nav styling starts here*/
 #main-nav ul.topnav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #a91413;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A91413;
 }
 
-#main-nav ul.topnav li {
-	float: left;
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-#main-nav ul.topnav li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
+ul.topnav li a:hover:not(.active) {background-color: #A91413;}
 
-#main-nav ul.topnav li a:hover:not(.active) {
-	background-color: #a91413;
-}
+ul.topnav li a.active {background-color: black;}
 
-#main-nav ul.topnav li a.active {
-	background-color: black;
-}
-
-#main-nav ul.topnav li.right {
-	float: right;
-}
+ul.topnav li.right {float: right;}
 
 @media screen and (max-width: 600px) {
-	#main-nav ul.topnav li.right,
-	ul.topnav li {
-		float: none;
-	}
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
 }
 /*header styling*/
 .header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("images/banner.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/banner.jpg");
 
-	height: auto;
-	max-height: 250px;
-	width: auto;
-	max-width: 1400px;
+  height: auto;
+  max-height: 250px;
+  width: auto;
+  max-width: 1400px;
 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
+
+
 
 /*main content styling*/
 img {
