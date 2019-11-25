@@ -417,23 +417,10 @@ html {
     margin-top: 3em;
     padding-top: 2em;
   }
-/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
-/* For modern browsers */
-.cf:before,
-.cf:after {
-    content:"";
-    display:table;
-}
-.cf:after {
-    clear:both;
-}
-/* For IE 6/7 (trigger hasLayout) */
-.cf {
-    zoom:1;
-}
+
 /*horizontal menu styles*/	
 nav {
-	background: #A91413;
+	background: black;
 	height: 2.3em;
 }
 ul, li {
@@ -443,7 +430,7 @@ ul, li {
 	float: left;
 }
 ul {
-	background: #000;
+	background: #A91413;
 	height: 2em;
 	width: 100%;
 }
@@ -460,11 +447,11 @@ li a:hover {
 	padding-top: .3em;
 	position: relative;
 	top: -.3em;
-	border-radius: .3em .3em 0 0;
+
 }
 .current, a:hover.current  {
-	background: #C32E2D;
-	color: #eee;
+	background: white;
+	color: #C32E2D;
 	padding-top: .3em;
 		position: relative;
 	top: -.3em;
@@ -480,3 +467,17 @@ li a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
