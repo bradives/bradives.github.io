@@ -533,7 +533,6 @@ ul li ul:focus {
   z-index: 1; 
   top: 210px; 
   left: 0;
-  text-align: left;
   overflow-x: hidden; 
   padding-top: 20px;
 }
