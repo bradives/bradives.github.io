@@ -383,21 +383,21 @@ body {
 .cf {
     zoom:1;
 }
-ul li {
+ul li.cf {
   margin: 0;
   padding: 0;
   list-style: none;
   float: left;  
 }
-li a{
+li a.cf{
   display: block;
   background-color: #a91413;
   color: white;
 }
-li .cf {
+li.cf {
   transition-duration: 0.5s;
 }
-li:hover .cf {
+li:hover.cf {
   cursor: pointer;
 }
 
@@ -408,14 +408,14 @@ a {
 
 
 
-ul {
+ul.cf {
   background: #a91413;
     list-style: none;
     margin: 0;
     padding-left: 0;
 }
 
-li .cf {
+li.cf {
     color: #fff;
   background: #a91413;
     display: block;
@@ -432,17 +432,17 @@ li a {
   color: #fff;
 }
 
-li:hover .cf, 
-li:focus-within .cf {
+li:hover.cf, 
+li:focus-within.cf {
     background:#a91413;
     cursor: pointer;
 }
 
-li:focus-within a {
+li:focus-within.cf a.cf {
   outline: none;
 }
 
-ul li ul .cf {
+ul li ul.cf {
     background: #a91413;
     visibility: hidden;
   opacity: 0;
