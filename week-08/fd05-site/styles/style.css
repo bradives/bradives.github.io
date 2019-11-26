@@ -383,6 +383,7 @@ body {
 .cf {
     zoom:1;
 }
+
 ul li {
   margin: 0;
   padding: 0;
@@ -415,6 +416,7 @@ ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
+    
 
 
 }
@@ -441,7 +443,7 @@ li a {
 
 li:hover , 
 li:focus-within {
-    background:#a91413;
+    background:#a91201;
     cursor: pointer;
 }
 
@@ -456,7 +458,7 @@ ul li ul  {
   min-width: 5rem;
     position: absolute;
   transition: all 0.5s ease;
-  margin-top: 1rem;
+  margin-top: 0;
     left: 0;
   display: none;
 }
@@ -470,7 +472,7 @@ ul li ul:focus {
   display: block
 }
 
-ul li ul li {
+ ul li ul li {
     clear: both;
   width: 100%;
 }
