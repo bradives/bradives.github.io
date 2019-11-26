@@ -364,7 +364,19 @@ body {
 	margin: auto;
 	font-size: 2em;
 	padding: 1em;
-	background-color: darkslategray;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/station51.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/*header styling*/
+header .header  {
+max-height: 250px;
+width: auto;
+max-width: 1400px;
+text-align: center;
 }
 
 /*all nav styling starts here*/
@@ -387,7 +399,7 @@ ul.cf li.cf {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: left;
+  float: left;
 }
 li.cf a {
 	display: block;
@@ -409,7 +421,9 @@ a {
 	background: #a91413;
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
+  padding-left: 0;
+
+
 }
 
 .cf li {
@@ -417,10 +431,12 @@ a {
 	background: #a91413;
 	display: block;
 	float: left;
-	padding: 1rem;
+	padding: .5rem;
 	position: relative;
 	text-decoration: none;
-	transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border-right: 2px solid white;
+  font-size: .8em;
 }
 
 li a {
@@ -428,7 +444,8 @@ li a {
 	display: block;
 	line-height: 2em;
 	padding: 0 1em;
-	width: 100%;
+  width: 100%;
+  
 }
 
 .cf li:hover,
@@ -469,22 +486,6 @@ ul li ul li {
 	width: 100%;
 }
 
-/*header styling*/
-.header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url("../images/banner.jpg");
-
-	height: auto;
-	max-height: 250px;
-	width: auto;
-	max-width: 1400px;
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	text-align: center;
-}
 
 /*main content styling*/
 img {
