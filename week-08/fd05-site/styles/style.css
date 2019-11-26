@@ -441,7 +441,7 @@ li:focus-within a {
   outline: none;
 }
 
-ul li ul .cf {
+ul li ul  {
     background: #a91413;
     visibility: hidden;
   opacity: 0;
@@ -453,16 +453,16 @@ ul li ul .cf {
   display: none;
 }
 
-ul li:hover .cf> ul,
-ul li:focus-within .cf > ul,
-ul li ul:hover .cf,
-ul li ul:focus .cf{
+ul li:hover > ul,
+ul li:focus-within  > ul,
+ul li ul:hover ,
+ul li ul:focus {
   visibility: visible;
   opacity: 1;
   display: block
 }
 
-ul li ul li .cf{
+ul li ul li {
     clear: both;
   width: 100%;
 }
