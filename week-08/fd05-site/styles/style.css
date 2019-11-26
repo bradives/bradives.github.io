@@ -405,14 +405,14 @@ a {
 	text-decoration: none;
 }
 
-ul.cf {
+ul {
 	background: #a91413;
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
 }
 
-li.cf {
+li {
 	color: #fff;
 	background: #a91413;
 	display: block;
