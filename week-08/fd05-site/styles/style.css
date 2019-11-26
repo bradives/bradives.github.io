@@ -394,10 +394,10 @@ li a{
   background-color: #a91413;
   color: white;
 }
-li {
+li .cf {
   transition-duration: 0.5s;
 }
-li:hover {
+li:hover .cf {
   cursor: pointer;
 }
 
@@ -415,10 +415,12 @@ ul {
     padding-left: 0;
 }
 
-li {
+li .cf {
     color: #fff;
   background: #a91413;
     display: block;
+    width: 300px;
+    justify-content: space-between;
     float: left;
     padding: 1rem;
     position: relative;
@@ -430,8 +432,8 @@ li a {
   color: #fff;
 }
 
-li:hover,
-li:focus-within {
+li:hover .cf, 
+li:focus-within .cf {
     background:#a91413;
     cursor: pointer;
 }
@@ -440,7 +442,7 @@ li:focus-within a {
   outline: none;
 }
 
-ul li ul {
+ul li ul .cf {
     background: #a91413;
     visibility: hidden;
   opacity: 0;
@@ -452,16 +454,16 @@ ul li ul {
   display: none;
 }
 
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
+ul li:hover .cf> ul,
+ul li:focus-within .cf > ul,
+ul li ul:hover .cf,
+ul li ul:focus .cf{
   visibility: visible;
   opacity: 1;
   display: block
 }
 
-ul li ul li {
+ul li ul li .cf{
     clear: both;
   width: 100%;
 }
