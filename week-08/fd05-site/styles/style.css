@@ -388,16 +388,18 @@ ul li {
   padding: 0;
   list-style: none;
   float: left;  
+  justify-content: space-evenly;
 }
 li a{
   display: block;
   background-color: #a91413;
   color: white;
+
 }
-li .cf {
+li {
   transition-duration: 0.5s;
 }
-li:hover .cf {
+li:hover {
   cursor: pointer;
 }
 
@@ -413,13 +415,14 @@ ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
+
+
 }
 
-li .cf {
+li  {
     color: #fff;
   background: #a91413;
     display: block;
-    width: fit-content;
     float: left;
     padding: 1rem;
     position: relative;
@@ -429,6 +432,11 @@ li .cf {
   
 li a {
   color: #fff;
+  display:  block;
+  line-height: 2em;
+  padding: 0 1em;
+  width: 100%;
+
 }
 
 li:hover , 
