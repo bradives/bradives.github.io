@@ -397,7 +397,7 @@ li.cf a {
 li {
 	transition-duration: 0.5s;
 }
-li:hover {
+.cf li:hover {
 	cursor: pointer;
 }
 
@@ -405,14 +405,14 @@ a {
 	text-decoration: none;
 }
 
-ul {
+.cf ul {
 	background: #a91413;
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
 }
 
-li {
+.cf li {
 	color: #fff;
 	background: #a91413;
 	display: block;
@@ -431,8 +431,8 @@ li a {
 	width: 100%;
 }
 
-li:hover,
-li:focus-within {
+.cf li:hover,
+.cf li:focus-within {
 	background: black;
 	cursor: pointer;
 }
@@ -455,10 +455,10 @@ ul li ul {
 	display: none;
 }
 
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
+.cf ul li:hover > ul,
+.cf ul li:focus-within > ul,
+.cf ul li ul:hover,
+.cf ul li ul:focus {
 	visibility: visible;
 	opacity: 1;
 	display: block;
@@ -494,6 +494,9 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+li {
+
 }
 
 /*footer styling*/
