@@ -405,7 +405,7 @@ a {
 	text-decoration: none;
 }
 
-ul {
+ul.cf {
 	background: #a91413;
 	list-style: none;
 	margin: 0;
