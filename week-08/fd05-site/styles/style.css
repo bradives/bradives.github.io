@@ -363,141 +363,128 @@ body {
 	width: 100%;
 	margin: auto;
 	font-size: 2em;
-  padding: 1em;
-  background-color: darkslategray;
+	padding: 1em;
+	background-color: darkslategray;
 }
-
 
 /*all nav styling starts here*/
 /*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
 /* For modern browsers */
 .cf:before,
 .cf:after {
-    content:"";
-    display:table;
+	content: "";
+	display: table;
 }
 .cf:after {
-    clear:both;
+	clear: both;
 }
 /* For IE 6/7 (trigger hasLayout) */
 .cf {
-    zoom:1;
+	zoom: 1;
 }
 
 ul.cf li.cf {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  float: left;  
-
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
 }
-li.cf a{
-  display: block;
-  background-color: #a91413;
-  color: white;
-
+li.cf a {
+	display: block;
+	background-color: #a91413;
+	color: white;
 }
 li {
-  transition-duration: 0.5s;
+	transition-duration: 0.5s;
 }
 li:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
-
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
-
-
 ul {
-  background: #a91413;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-
-
-
+	background: #a91413;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
 }
 
 li {
-    color: #fff;
-  background: #a91413;
-    display: block;
-    float: left;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-  transition-duration: 0.5s;
+	color: #fff;
+	background: #a91413;
+	display: block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+	transition-duration: 0.5s;
 }
-  
+
 li a {
-  color: #fff;
-  display:  block;
-  line-height: 2em;
-  padding: 0 1em;
-  width: 100%;
-
+	color: #fff;
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	width: 100%;
 }
 
-li:hover , 
+li:hover,
 li:focus-within {
-    background: black;
-    cursor: pointer;
+	background: black;
+	cursor: pointer;
 }
 
 li:focus-within a {
-  outline: none;
+	outline: none;
 }
 
-ul li ul  {
-    background: black;
-    color: white;
-    visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-    position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 15px;
-    left: 0;
-    z-index: 1;
-  display: none;
+ul li ul {
+	background: black;
+	color: white;
+	visibility: hidden;
+	opacity: 0;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 15px;
+	left: 0;
+	z-index: 1;
+	display: none;
 }
 
 ul li:hover > ul,
-ul li:focus-within  > ul,
-ul li ul:hover ,
+ul li:focus-within > ul,
+ul li ul:hover,
 ul li ul:focus {
-  visibility: visible;
-  opacity: 1;
-  display: block
+	visibility: visible;
+	opacity: 1;
+	display: block;
 }
 
- ul li ul li {
-    clear: both;
-  width: 100%;
+ul li ul li {
+	clear: both;
+	width: 100%;
 }
-
 
 /*header styling*/
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/banner.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("../images/banner.jpg");
 
-  height: auto;
-  max-height: 250px;
-  width: auto;
-  max-width: 1400px;
+	height: auto;
+	max-height: 250px;
+	width: auto;
+	max-width: 1400px;
 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	text-align: center;
 }
-
-
 
 /*main content styling*/
 img {
