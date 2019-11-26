@@ -361,7 +361,7 @@ html {
 
   padding:0;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/background.jpg");
+    url("../images/bannerengine.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -409,10 +409,31 @@ max-width: 1400px;
 text-align: center;
 
 }
+header {
+  background-image: url(../images/station51top.jpg);
+  background-position: center;
 
+  max-width: 1400px;
+  z-index: 1;
+  padding-top: 60px
+}
+header > h1 {
+  font-size: .9em;
+  font-family: raleway;
+  font-weight: 900;
+}
+@media only screen and (min-width:400px){
+  header > h1 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 801px){
+  header > h1 {
+    font-size: 2.7em;
+  }
+}
 /*all nav styling starts here*/
-/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
-/* For modern browsers */
+
 .cf:before,
 .cf:after {
 	content: "";
@@ -421,7 +442,7 @@ text-align: center;
 .cf:after {
 	clear: both;
 }
-/* For IE 6/7 (trigger hasLayout) */
+
 .cf {
 	zoom: 1;
 }
@@ -439,9 +460,16 @@ ul.cf li.cf {
 	list-style: none;
 	margin: 0;
   padding-left: 0;
+  width: 100%;
+
+  
 
 
 
+}
+nav {
+  height: 2.5em;
+  width: 100%;
 }
 li.cf a {
 	display: block;
@@ -479,8 +507,8 @@ a {
 li a {
 	color: #fff;
 	display: block;
-	line-height: 2em;
-	padding: 0 1em;
+	line-height: 2.0em;
+	padding: 0 1.233em;
   width: 100%;
 
   
@@ -525,6 +553,7 @@ ul li ul li {
 }
 
 
+
 /*main content styling*/
 img {
 	width: 80%;
@@ -537,8 +566,56 @@ img {
 #news ul {
   margin: auto;
 }
+#news {
+border-radius: 15px;
+border: 5px solid #DAA520;
+padding: 3px;
+height: 700px;
+width: 100%;
+max-width: 800px;
+font-size: 1.5rem;
+font-family: inherit;
+color:white;
+background-color: black;
+background-blend-mode: saturation 25%;
+margin: auto;
+position: inherit;
+float:right;
+}
+#recruitment {
+  border-radius: 15px;
+border: 5px solid #DAA520;
+padding: 3px;
+height: fit-content;
+width: 100%;
+max-width: 500px;
+font-size: 1.5rem;
+font-family: inherit;
+color:white;
+background-color: black;
+margin: 5px 5px 5px 5px;
+position: inherit;
+clear: left;
 
+}
+
+#burn-ban {
+  border-radius: 15px;
+  border: 5px solid #DAA520;
+  padding: 3px;
+  height: fit-content;
+  width: 100%;
+  max-width: 500px;
+  font-size: 1.5rem;
+  font-family: inherit;
+  color:white;
+  background-color: black;
+  margin: 5px 5px 5px 5px;
+  position: inherit;
+  
+}
 /*footer styling*/
 footer {
-	background-color: black;
+  background-color: black;
+  clear: both;
 }
