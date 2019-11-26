@@ -431,8 +431,8 @@ li a {
   color: #fff;
 }
 
-li:hover .cf, 
-li:focus-within .cf {
+li:hover , 
+li:focus-within {
     background:#a91413;
     cursor: pointer;
 }
