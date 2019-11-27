@@ -561,7 +561,7 @@ a:link {
 }
 a:visited {
 	color: white;
-	
+
 }
 
 a:hover {
@@ -633,5 +633,24 @@ section a:active {
 }
 .footer a {
 	text-decoration: underline white;
+}
+.qa a:link {
+	color: red;
+	background-color: black;
+}
+.qa a:visited {
+	color: black;
+	background-color: red;
+}
+.qa a:hover {
+	color: gold;
+	background: red;
+}
+.qa a:active {
+	color:hotpink;
+	background-color: yellow;
+}
+.qa a {
+	font-family: fantasy;
 }
 
