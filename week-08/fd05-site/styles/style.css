@@ -352,48 +352,39 @@ template {
 
 /*setting global styles*/
 html {
-  font-family: " Raleway", "Trebuchet MS", sans-serif;
+	font-family: " Raleway", "Trebuchet MS", sans-serif;
 	font-size: 8px;
 	color: white;
-  width: 100%;
-  margin: 0;
+	width: 100%;
+	margin: 0;
 
-
-  padding:0;
+	padding: 0;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/bannerengine.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-
-  }
-  @media only screen and (min-width:400px){
-    html {
-      max-width: 800px;
-      margin: auto;
-      padding: 0;
-      font-size: 10px;
-    }
-  }
-@media only screen and (min-width: 801px){
-  html {
-    max-width: 1400px;
-    margin: auto;
-    padding: 0;
-    font-size: 14px;
-  }
-  
+		url("../images/bannerengine.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media only screen and (min-width: 400px) {
+	html {
+		max-width: 800px;
+		margin: auto;
+		padding: 0;
+		font-size: 10px;
+	}
+}
+@media only screen and (min-width: 801px) {
+	html {
+		max-width: 1400px;
+		margin: auto;
+		padding: 0;
+		font-size: 14px;
+	}
 }
 
-
 body {
-	
 	margin: auto;
 	font-size: 2em;
-
-  
-
 }
 /*.header img{
   max-width: 1400px;
@@ -402,35 +393,34 @@ body {
 
 }*/
 /*header styling*/
-.header header   {
-max-height: 250px;
-width: 100%;
-max-width: 1400px;
-text-align: center;
-
+.header header {
+	max-height: 250px;
+	width: 100%;
+	max-width: 1400px;
+	text-align: center;
 }
 header {
-  background-image: url(../images/station51top.jpg);
-  background-position: center;
+	background-image: url(../images/station51top.jpg);
+	background-position: center;
 
-  max-width: 1400px;
-  z-index: 1;
-  padding-top: 60px
+	max-width: 1400px;
+	z-index: 1;
+	padding-top: 60px;
 }
 header > h1 {
-  font-size: .9em;
-  font-family: raleway;
-  font-weight: 900;
+	font-size: 0.9em;
+	font-family: raleway;
+	font-weight: 900;
 }
-@media only screen and (min-width:400px){
-  header > h1 {
-    font-size: 1.5em;
-  }
+@media only screen and (min-width: 400px) {
+	header > h1 {
+		font-size: 1.5em;
+	}
 }
-@media only screen and (min-width: 801px){
-  header > h1 {
-    font-size: 2.7em;
-  }
+@media only screen and (min-width: 801px) {
+	header > h1 {
+		font-size: 2.7em;
+	}
 }
 /*all nav styling starts here*/
 
@@ -451,31 +441,24 @@ ul.cf li.cf {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-  float: left;
-  width: 100%;
-
+	float: left;
+	width: 100%;
 }
 .cf ul {
 	background: #a91413;
 	list-style: none;
 	margin: 0;
-  padding-left: 0;
-  width: 100%;
-
-  
-
-
-
+	padding-left: 0;
+	width: 100%;
 }
 nav {
-  height: 2.5em;
-  width: 100%;
+	height: 2.5em;
+	width: 100%;
 }
 li.cf a {
 	display: block;
 	background-color: #a91413;
-  color: white;
-  
+	color: white;
 }
 li {
 	transition-duration: 0.5s;
@@ -488,30 +471,25 @@ a {
 	text-decoration: none;
 }
 
-
-
 .cf li {
 	color: #fff;
 	background: #a91413;
 	display: block;
 	float: left;
-	padding: .7rem;
+	padding: 0.7rem;
 	position: relative;
 	text-decoration: none;
-  transition-duration: 0.5s;
-  border-right: 2px solid white;
-  font-size: .8em;
-  
+	transition-duration: 0.5s;
+	border-right: 2px solid white;
+	font-size: 0.8em;
 }
 
 li a {
 	color: #fff;
 	display: block;
-	line-height: 2.0em;
+	line-height: 2em;
 	padding: 0 1.233em;
-  width: 100%;
-
-  
+	width: 100%;
 }
 
 .cf li:hover,
@@ -549,10 +527,8 @@ ul li ul {
 
 ul li ul li {
 	clear: both;
-  width: 100%;
+	width: 100%;
 }
-
-
 
 /*main content styling*/
 img {
@@ -563,59 +539,44 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 #news ul {
-  margin: auto;
-}
-#news {
-border-radius: 15px;
-border: 5px solid #DAA520;
-padding: 3px;
-height: 700px;
-width: 100%;
-max-width: 800px;
-font-size: 1.5rem;
-font-family: inherit;
-color:white;
-background-color: black;
-background-blend-mode: saturation 25%;
-margin: auto;
-position: inherit;
-float:right;
-}
-#recruitment {
-  border-radius: 15px;
-border: 5px solid #DAA520;
-padding: 3px;
-height: fit-content;
-width: 100%;
-max-width: 500px;
-font-size: 1.5rem;
-font-family: inherit;
-color:white;
-background-color: black;
-margin: 5px 5px 5px 5px;
-position: inherit;
-clear: left;
-
+	margin: auto;
 }
 
-#burn-ban {
-  border-radius: 15px;
-  border: 5px solid #DAA520;
-  padding: 3px;
-  height: fit-content;
-  width: 100%;
-  max-width: 500px;
-  font-size: 1.5rem;
-  font-family: inherit;
-  color:white;
-  background-color: black;
-  margin: 5px 5px 5px 5px;
+section, aside {
+	border-radius: 15px;
+	border: 3px solid #daa520;
+	padding: 3px;
+	height: fit-content;
+	width: 100%;
+	max-width: 400px;
+	font-size: 1rem;
+	font-family: inherit;
+	color: white;
+	background-color: black;
+	margin: auto;
   position: inherit;
-  
+  clear: both;
 }
+
+@media only screen and (min-width: 400px) {
+	section, aside {
+    max-width: 790px;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 801px) {
+	section, aside {
+    max-width: 1300px;
+    width: 100%;
+    font-size: 2.0rem;
+	}
+}
+
 /*footer styling*/
 footer {
-  background-color: black;
-  clear: both;
+	background-color: black;
+	clear: both;
 }
