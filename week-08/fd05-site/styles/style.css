@@ -556,7 +556,23 @@ img {
 #news ul {
 	margin: auto;
 }
-
+a:link {
+	color: white;
+}
+a:visited {
+	background-color: #a91413;
+	color: lightslategrey;
+}
+a:hover {
+	color: goldenrod;
+}
+a:active {
+	background-color: white;
+	color: #a91413;
+}
+a:focus {
+	outline: 2px solid red;
+}
 section, aside {
 	border-radius: 15px;
 	border: 3px solid #daa520;
@@ -572,6 +588,7 @@ section, aside {
   position: inherit;
   clear: both;
 }
+
 
 @media only screen and (min-width: 400px) {
 	section, aside {
@@ -594,3 +611,4 @@ footer {
 	clear: both;
 	position: inherit;
 }
+
