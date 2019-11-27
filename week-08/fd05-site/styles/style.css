@@ -463,7 +463,7 @@ li.cf a {
 li {
 	transition-duration: 0.5s;
 }
-.cf li:hover {
+ li:hover {
 	cursor: pointer;
 }
 
@@ -492,8 +492,8 @@ li a {
 	width: 100%;
 }
 
-.cf li:hover,
-.cf li:focus-within {
+ li:hover,
+ li:focus-within {
 	background: black;
 	cursor: pointer;
 }
@@ -531,21 +531,25 @@ ul li ul li {
 }
 ul.dropdown {
 	list-style-type: none;
-	display: inline-block;
+	display: block;
 	background: #a91413;
 	width: 250px;
 	text-align: left;
-	
+	float: left;
+	margin: auto;
 }
+
 
 /*main content styling*/
 img {
-	width: 80%;
+	width: 70%;
 	/*max-width: 1400px;*/
-	padding: 5px;
+	padding: 0 2px 1px 2px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border: 2px solid lightslategrey;
+	
 }
 
 #news ul {
@@ -555,9 +559,9 @@ img {
 section, aside {
 	border-radius: 15px;
 	border: 3px solid #daa520;
-	padding: 3px;
+	padding: 5px;
 	height: fit-content;
-	width: 100%;
+	width: 95%;
 	max-width: 350px;
 	font-size: 1rem;
 	font-family: inherit;
@@ -570,8 +574,8 @@ section, aside {
 
 @media only screen and (min-width: 400px) {
 	section, aside {
-    max-width: 790px;
-    width: 100%;
+    max-width: 740px;
+    width: 97%;
     font-size: 1.4rem;
   }
 }
@@ -587,5 +591,5 @@ section, aside {
 footer {
 	background-color: black;
 	clear: both;
-	position: relative;
+	position: inherit;
 }
