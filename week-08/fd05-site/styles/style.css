@@ -529,7 +529,7 @@ ul li ul li {
 	clear: both;
 	width: 100%;
 }
-ul.dropdown {
+ul.sidemenu {
 	list-style-type: none;
 	display: block;
 	background: #a91413;
@@ -537,6 +537,7 @@ ul.dropdown {
 	text-align: left;
 	float: left;
 	margin: auto;
+	font-size: .9em;
 }
 
 
