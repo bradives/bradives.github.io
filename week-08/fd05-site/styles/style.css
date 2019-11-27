@@ -579,5 +579,5 @@ section, aside {
 footer {
 	background-color: black;
 	clear: both;
-	position: fixed;
+	position: relative;
 }
