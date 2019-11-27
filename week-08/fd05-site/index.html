@@ -13,15 +13,27 @@
 		<meta charset="utf-8" />
 		<title>Sultan Fire Department</title>
 		<style>
-		#id {
+		#id a:link {
 			color: red;
 			background-color: black;
+		}
+		#id a:visited {
+			color: black;
+			background-color: red;
+		}
+		#id a:hover {
+			color: gold;
+			background: red;
+		}
+		#id a:active {
+			color:hotpink;
+			background-color: yellow;
 		}
 		</style>
 	</head>
 	<body>
 		<header role="banner" class="header">
-			<a id="qa" href="https://github.com/bradives/bradives.github.io/tree/master/week-08/fd05-site">FOR BIT-112 QA CLICK HERE</a>
+			<a id="qa" href="https://github.com/bradives/bradives.github.io/tree/master/week-08/fd05-site" title="this is the QA link.   please don't hate the styling!">FOR BIT-112 QA CLICK HERE</a>
 			<h1>Welcome to Sultan Fire Department</h1>
             <div w3-include-html="nav.html"></div>
 
