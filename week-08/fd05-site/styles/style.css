@@ -559,19 +559,15 @@ img {
 a:link {
 	color: white;
 }
-a:visited {
-	background-color: #a91413;
-	color: lightslategrey;
-}
+
 a:hover {
 	color: goldenrod;
 }
 a:active {
-	background-color: white;
 	color: #a91413;
 }
 a:focus {
-	outline: 2px solid red;
+	outline: 5px solid red;
 }
 section, aside {
 	border-radius: 15px;
@@ -588,6 +584,7 @@ section, aside {
   position: inherit;
   clear: both;
 }
+
 
 
 @media only screen and (min-width: 400px) {
@@ -610,5 +607,27 @@ footer {
 	background-color: black;
 	clear: both;
 	position: inherit;
+}
+/*additional link styling*/
+section  a:link {
+	color: #a91413;
+}
+section a:hover {
+	color: #daa520;
+}
+section a:active {
+	color: white;
+	background-color: #a91413;
+}
+
+
+.footer  a:link {
+	color: #a91413;
+}
+.footer a:hover {
+	color: #daa520;
+}
+.footer a {
+	text-decoration: underline white;
 }
 
