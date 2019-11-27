@@ -488,7 +488,7 @@ li a {
 	color: #fff;
 	display: block;
 	line-height: 2em;
-	padding: 0 1.233em;
+	padding: 0 1.2em;
 	width: 100%;
 }
 
@@ -524,10 +524,20 @@ ul li ul {
 	opacity: 1;
 	display: block;
 }
-
+ {
+	text-decoration: none;
+}
 ul li ul li {
 	clear: both;
 	width: 100%;
+}
+ul.dropdown {
+	list-style-type: none;
+	display: inline-block;
+	background: #a91413;
+	width: 250px;
+	text-align: left;
+	
 }
 
 /*main content styling*/
