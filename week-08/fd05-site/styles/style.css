@@ -626,10 +626,10 @@ section a:active {
 
 
 .footer  a:link {
-	color: #a91413;
+	color: goldenrod;
 }
 .footer a:hover {
-	color: #daa520;
+	color: #a91413;
 }
 .footer a {
 	text-decoration: underline white;
