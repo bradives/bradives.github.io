@@ -614,10 +614,10 @@ footer {
 }
 /*additional link styling*/
 section  a:link {
-	color: #a91413;
+	color: #daa520;;
 }
 section a:hover {
-	color: #daa520;
+	color: #a91413
 }
 section a:active {
 	color: white;
