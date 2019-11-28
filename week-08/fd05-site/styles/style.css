@@ -451,10 +451,10 @@ ul.cf li.cf {
 	padding-left: 0;
 	width: 100%;
 }
-/*nav {
+nav.cf {
 	height: 2.5em;
 	width: 100%;
-}*/
+}
 li.cf a {
 	display: block;
 	background-color: #a91413;
@@ -544,7 +544,7 @@ body {
   margin: 0;
 }
 
-nav {
+nav.container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-auto-rows: auto;
