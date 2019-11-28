@@ -374,7 +374,7 @@ html {
 		font-size: 10px;
 	}
 }*/
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 900px) {
 	html {
 		max-width: 1400px;
 		margin: auto;
@@ -418,7 +418,7 @@ header > h1 {
 		font-size: 1.5em;
 	}
 }*/
-@media only screen and (max-width: 900px) {
+@media only screen and (min-width: 900px) {
 	header > h1 {
 		font-size: 2.7em;
 	}
@@ -485,7 +485,7 @@ a {
 	font-size: 0.8em;
 }
 
-li a {
+.cf li a {
 	color: #fff;
 	display: block;
 	line-height: 2em;
@@ -493,17 +493,17 @@ li a {
 	width: 100%;
 }
 
- li:hover,
- li:focus-within {
+.cf li:hover,
+.cf  li:focus-within {
 	background: black;
 	cursor: pointer;
 }
 
-li:focus-within a {
+.cf li:focus-within a {
 	outline: none;
 }
 
-ul li ul {
+ ul li ul {
 	background: black;
 	color: white;
 	visibility: hidden;
@@ -526,7 +526,7 @@ ul li ul {
 	display: block;
 }
 
-ul li ul li {
+ ul li ul li {
 	clear: both;
 	width: 100%;
 }
@@ -538,11 +538,11 @@ ul.sidemenu {
 	text-align: left;
 	float: left;
 	margin: auto;
-	font-size: .9em;
+	font-size: 1em;
 }
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+/*@import url('https://fonts.googleapis.com/css?family=Ubuntu');*/
 body {
-  margin: 0;
+  margin: auto;
 }
 
 nav.container {
