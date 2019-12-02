@@ -453,6 +453,7 @@ ul.cf li.cf {
 	width: 100%;
 }
 nav.cf {
+
 	height: 2.5em;
 	width: 100%;
 }
@@ -464,7 +465,7 @@ li.cf a {
 li {
 	transition-duration: 0.5s;
 }
- li:hover {
+li:hover {
 	cursor: pointer;
 }
 
@@ -499,7 +500,7 @@ a {
 	cursor: pointer;
 }
 
-.cf li:focus-within a {
+ li:focus-within a {
 	outline: none;
 }
 
@@ -598,7 +599,6 @@ nav.container {
 
 .navLinks:hover {
   color: black;
-  padding: 1em 1em;
 }
 
 #twist {
