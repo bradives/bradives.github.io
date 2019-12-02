@@ -558,8 +558,11 @@ section, aside {
 	background-color: black;
 	margin: 2px;
   position: inherit;
+	margin-left: auto;
+	margin-right: auto;
   clear: both;
 }
+
 
 
 
