@@ -440,7 +440,7 @@ nav.main {
   grid-gap: 1em;
   align-items: center;
   text-align: center;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid goldenrod;
   background: #a91413;
 }
 nav.container {
@@ -450,7 +450,7 @@ nav.container {
 	grid-gap: 1em;
 	align-items: center;
 	text-align: center;
-	border-bottom: 4px solid black;
+	border-bottom: 4px solid goldenrod;
 	background: #a91413;
   }
 
@@ -495,8 +495,8 @@ nav.container {
 
 .navLinks {
 
-  font-size: 1.2em;
-  text-transform: uppercase;
+  font-size: 1.1em;
+  
   text-decoration: none;
   color: white;
 }
