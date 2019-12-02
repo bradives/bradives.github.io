@@ -406,7 +406,9 @@ body {
 header {
 	background-image: url(../images/station51top.jpg);
 	background-position: center;
-
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 	max-width: 1400px;
 	z-index: 1;
 	padding-top: 60px;
@@ -508,6 +510,7 @@ nav.container {
 #twist {
   color: goldenrod;
 }
+
 
 
 /*main content styling*/
