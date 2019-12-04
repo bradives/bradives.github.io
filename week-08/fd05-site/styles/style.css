@@ -449,7 +449,7 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-
+	font-size: 1em;
   }
   .topnav a:hover {
 	  background-color: black;
@@ -496,7 +496,7 @@ body {
 	text-decoration: none;
 	display: block;
 	text-align: left;
-	
+	font-size: 1em;
   }
   /*making it accessible for keyboards*/
   .topnav a:focus {
