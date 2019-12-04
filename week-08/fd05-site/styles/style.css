@@ -607,28 +607,28 @@ nav.container {
 	  grid-gap: 1em;
    }
   }  
-/*validator hates classes being a number.   validator and I have argued over this*/
-.c1 {
+
+.1 {
   grid-column: 1;
 }
 
-.c2 {
+.2 {
   grid-column: 2;
 }
 
-.c3 {
+.3 {
   grid-column: 3;
 }
 
-.c4 {
+.4 {
   grid-column: 4;
 }
 
-.c5 {
+.5 {
   grid-column: 5;
 }
 
-.c6 {
+.6 {
   grid-column: 6;
 }
 
