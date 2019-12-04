@@ -435,6 +435,7 @@ header > h1 {
 body {
   margin: auto;
 }
+/*main nav element, styling the bar*/
 .topnav {
 	overflow: hidden;
 	background-color: #a91413;
@@ -448,7 +449,7 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	/*font-size: 17px;*/
+
   }
   .topnav a:hover {
 	  background-color: black;
@@ -463,14 +464,13 @@ body {
   .topnav .icon {
 	display: none;
   }
-  
+  /*dropdown menu styling*/
   .dropdown {
 	float: left;
 	overflow: hidden;
   }
-  
-  .dropdown .dropbtn {
-	/*font-size: 17px;*/    
+  /*drop button*/
+  .dropdown .dropbtn {    
 	border: none;
 	outline: none;
 	color: white;
@@ -479,7 +479,7 @@ body {
 	font-family: inherit;
 	margin: 0;
   }
-  
+  /*drop list*/
   .dropdown-content {
 	display: none;
 	position: absolute;
@@ -498,6 +498,7 @@ body {
 	text-align: left;
 	
   }
+  /*making it accessible for keyboards*/
   .topnav a:focus {
 	  background-color: black;
 	  color: white;
@@ -516,6 +517,7 @@ body {
 	  outline: none;
 	 
   }
+  /*same here, but with the dropdown.  still working on getting it to be in the tab order.  more research*/
   .topnav a:hover > .dropdown a:focus-within > .dropbtn .dropdown-content a:hover,
   .droplink a:focus  {
 	  visibility: visible;
@@ -537,7 +539,7 @@ body {
   .dropdown:hover .dropdown-content {
 	display: block;
   }
-  
+  /*responsive nav (⌐■_■)*/
   @media screen and (max-width: 600px) {
 	.topnav a:not(:first-child), .dropdown .dropbtn {
 	  display: none;
@@ -568,7 +570,7 @@ body {
 	  text-align: left;
 	}
   }
-
+/*rigs nav.  added this for ease of access when looking at vehicles*/
 nav.main {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -579,6 +581,7 @@ nav.main {
   border-bottom: 4px solid goldenrod;
   background: #a91413;
 }
+/*this is a grid, wanted something light and simple in just html/css*/ 
 nav.container {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
@@ -589,7 +592,7 @@ nav.container {
 	border-bottom: 4px solid goldenrod;
 	background: #a91413;
   }
-
+/*also responsive, the links squish down into a  vertical nav for the mobile mode*/
 @media screen and (max-width: 900px) {
   nav.main {
     grid-template-columns: 100%;
@@ -604,28 +607,28 @@ nav.container {
 	  grid-gap: 1em;
    }
   }  
-
-.1 {
+/*validator hates classes being a number.   validator and I have argued over this*/
+.c1 {
   grid-column: 1;
 }
 
-.2 {
+.c2 {
   grid-column: 2;
 }
 
-.3 {
+.c3 {
   grid-column: 3;
 }
 
-.4 {
+.c4 {
   grid-column: 4;
 }
 
-.5 {
+.c5 {
   grid-column: 5;
 }
 
-.6 {
+.c6 {
   grid-column: 6;
 }
 
