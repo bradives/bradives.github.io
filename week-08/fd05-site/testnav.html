@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles/testnav.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,  initial-scale=1, maximum-scale=1">
+</head>
+<header>
+    <h1>testing different navs</h1>
+</header>
+<body>
+        <nav class="clearfix">
+                <ul class="clearfix">
+                  <li><a href="../fd05-site/index.html">Home</a></li>
+                  <li><a href="../fd05-site/about-us.html">about us</a></li>
+                  <li><a href="../fd05-site/recruiment.html">Recruitment</a></li>
+                  <li><a href="../fd05-site/fleet-station.html">The Station and Fleet</a></li>
+                  <li><a href="../fd05-site/contact-us.html">Contact us</a></li>
+                  <li><a href="../fd05-site/faq.html">F.A.Q.</a></li>  
+                </ul>
+                <a href="#" id="pull">Menu</a>
+              </nav>
+              <main>
+
+              </main>
+              <script>
+              $(function() {
+  var pull    = $('#pull');
+    menu    = $('nav ul');
+    menuHeight  = menu.height();
+ 
+  $(pull).on('click', function(e) {
+    e.preventDefault();
+    menu.slideToggle();
+  });
+});
+              </script>
+              <script>
+              $(window).resize(function(){
+  var w = $(window).width();
+  if(w > 320 && menu.is(':hidden')) {
+    menu.removeAttr('style');
+  }
+}); 
+              </script>
+</body>
+</html>
