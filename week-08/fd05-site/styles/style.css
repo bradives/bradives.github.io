@@ -608,27 +608,27 @@ nav.container {
    }
   }  
 
-._1 {
+.1 {
   grid-column: 1;
 }
 
-._2 {
+.2 {
   grid-column: 2;
 }
 
-._3 {
+.3 {
   grid-column: 3;
 }
 
-._4 {
+.4 {
   grid-column: 4;
 }
 
-._5 {
+.5 {
   grid-column: 5;
 }
 
-._6 {
+.6 {
   grid-column: 6;
 }
 
