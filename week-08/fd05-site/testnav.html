@@ -1,342 +1,146 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {margin:0;font-family:Arial}
-
-.topnav {
-  overflow: hidden;
-  background-color: #b22222;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a:hover {
-    background-color: black;
-    color: white;
-}
-
-.active {
-  background-color: black;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #b22222;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  
-}
-.topnav a:focus {
-    background-color: black;
-    color: white;
-    outline: 2px solid red;
-}
-
-
-.droplink:hover, .droplink:focus-within{
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-
-.droplink a:focus-within a {
-    outline: none;
-   
-}
-.topnav a:hover > .dropdown a:focus-within > .dropbtn .dropdown-content a:hover,
-.droplink a:focus  {
-    visibility: visible;
-  opacity: 1;
-  display: block
-}
-
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
-  color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: black;
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
-
-
-/*unit nav*/
-.unittopnav {
-  overflow: hidden;
-  background-color: #b22222;
-}
-
-.unittopnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.unittopnav a:hover {
-    background-color: black;
-    color: white;
-}
-
-.active {
-  background-color: black;
-  color: white;
-}
-
-.unittopnav .icon {
-  display: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #b22222;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  
-}
-.unittopnav a:focus {
-    background-color: black;
-    color: white;
-    outline: 2px solid red;
-}
-
-
-.droplink:hover, .droplink:focus-within{
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-
-.droplink a:focus-within a {
-    outline: none;
-   
-}
-.topnav a:hover > .dropdown a:focus-within > .dropbtn .dropdown-content a:hover,
-.droplink a:focus  {
-    visibility: visible;
-  opacity: 1;
-  display: block
-}
-
-
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
-  color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: black;
-  color: white;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-@media screen and (max-width: 600px) {
-  .unittopnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .unittopnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .unittopnav.responsive {position: relative;}
-  .unittopnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .unittopnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .unittopnav.responsive .dropdown {float: none;}
-  .unittopnav.responsive .dropdown-content {position: relative;}
-  .unittopnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-}
-</style>
-</head>
-<body>
-<header>
-<nav role="navigation" class="topnav" id="myTopnav">
-        <a href="../fd05-site/index.html">Home</a>
-        <a href="../fd05-site/about-us.html">About Us</a>
-        <a href="../fd05-site/recruitment.html">Recruitment</a>
-        <a href="../fd05-site/fleet-station.html">Station 51</a>
-        <div class="dropdown" aria-label="submenu" >
-                <button class="dropbtn">The Units
-                    <i class="fa fa-caret-down"></i>
-                </button>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+			rel="stylesheet"
+		/>
+		<meta name="viewport" content="width-device-width,  initial-scale=1, maximum-scale=1">
+		<meta charset="utf-8" />
+		<meta name="description" content="Sultan's EMS aid car"/>
+		<meta name="author"	  content="Bradley Ives"/>
+		<meta name="keywords" content="Sultan Fire department, snohomish county fire district 5, Aid 51, Sultan fire EMS, Sultan aid car"/>
+		<title>Aid 51</title>
+	</head>
+	<body>
+		<header>
+			<h1>A-51</h1>
+            <!--<div w3-include-html="nav.html"></div>-->
+            <div role="navigation" class="topnav" id="myTopnav">
+                    <a href="../fd05-site/index.html">Home</a>
+                    <a href="../fd05-site/about-us.html">About Us</a>
+                    <a href="../fd05-site/recruitment.html">Recruitment</a>
+                    <a href="../fd05-site/fleet-station.html">Station 51</a>
+                    <div class="dropdown" aria-label="submenu" >
+                            <button class="dropbtn">The Units
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            
+                            <div class="dropdown-content" >
+                              <a class="droplink"  href="../fd05-site/e51.html">Engine 51</a>
+                              <a class="droplink"  href="../fd05-site/e51a.html">Engine 51-A</a>
+                              <a class="droplink"  href="../fd05-site/a51.html">Aid 51</a>
+                              <a class="droplink"  href="../fd05-site/a51a.html">Aid 51-A</a>
+                              <a class="droplink"  href="../fd05-site/t51.html">Tender 51</a>
+                              <a class="droplink"  href="../fd05-site/u51.html">Utility 51</a>
+                            </div>
+                          </div> 
+                    <a href="../fd05-site/contact-us.html">Contact Us</a>
+                    <a href="../fd05-site/faq.html">F.A.Q.</a>
                 
-                <div class="dropdown-content" >
-                  <a class="droplink"  href="../fd05-site/e51.html">Engine 51</a>
-                  <a class="droplink"  href="../fd05-site/e51a.html">Engine 51-A</a>
-                  <a class="droplink"  href="../fd05-site/a51.html">Aid 51</a>
-                  <a class="droplink"  href="../fd05-site/a51a.html">Aid 51-A</a>
-                  <a class="droplink"  href="../fd05-site/t51.html">Tender 51</a>
-                  <a class="droplink"  href="../fd05-site/u51.html">Utility 51</a>
-                </div>
-              </div> 
-        <a href="../fd05-site/contact-us.html">Contact Us</a>
-        <a href="../fd05-site/faq.html">F.A.Q.</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                        </div>
 
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-    </nav>
-    </header>
-<p style="background-color: black; color: white;">This is a line of text to seperate the two navigation bars from each other.</p>
-<div role="navigation" class="unittopnav" id="unitTopnav">
-    <a href="../fd05-site/fleet-station.html">Station 51</a>
-    <a href="../fd05-site/e51.html">Engine 51</a>
-    <a href="../fd05-site/e51a.html">Engine 51-A</a>
-    <a href="../fd05-site/a51.html">Aid 51</a>
-    <a href="../fd05-site/a51a.html">A 51-A</a>
-    <a href="../fd05-site/t51.html">Tender 51</a>
-    <a href="../fd05-site/u51.html">Utility 51</a>
-<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="unitFunction()">&#9776;</a>
-        </div>
-    </main>
+		</header>
+		<main>
+				
+			<article>
+				<br><h2>The Primary EMS Unit</h2>
+                <!--<div w3-include-html="vehnav.html"></div>-->
+                <html lang="en">
+        <div role="navigation" class="unittopnav" id="unitTopnav">
+                <a href="../fd05-site/fleet-station.html">Station 51</a>
+                <a href="../fd05-site/e51.html">Engine 51</a>
+                <a href="../fd05-site/e51a.html">Engine 51-A</a>
+                <a href="../fd05-site/a51.html">Aid 51</a>
+                <a href="../fd05-site/a51a.html">A 51-A</a>
+                <a href="../fd05-site/t51.html">Tender 51</a>
+                <a href="../fd05-site/u51.html">Utility 51</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="unitFunction()">&#9776;</a>
+                    </div>
 
+				
 
+					  
+				<figure id="e51pic">
+					<img src="images/a51.jpg" alt="Aid 51 front" />
+					<figcaption>Aid 51</figcaption>
+				</figure>
+				<section id="e51description">
+					<h2>About Aid 51</h2>
+					<p>
+						Aid 51 is a Braun ambulance mounted on a Ford E350 van chasse.
+						This is our first out aid unit and is used for nearly all of our
+						aid calls. The vehicle is typically staffed with 2
+						firefighter/EMTs but sometimes one of our probationary
+						firefighters will be riding along as a 3rd crew member for
+						training and evaluation as part of their progression as new EMTs.
+						80% of our 911 dispatches are medical calls so this vehicle is
+						defiantly our busiest vehicle.
+					</p>
+					<h2>Equipment and Functions</h2>
+					<ul>
+						<li>
+							medical equipment for evaluation and care
+						</li>
+						<li>
+							Self contained breathing apparatus (SCBA) and hand tools for
+							crew to use in firefighting operations, as this unit can also
+							respond to fires as needed.
+						</li>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-<script>
-        function unitFunction() {
-          var x = document.getElementById("unitTopnav");
-          if (x.className === "unittopnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "unittopnav";
-          }
-        }
-        </script>
+						<li>
+							Equipment to move people such as a stair-chair with tracks on
+							it and foldable  seats and tarps to move patients
+							in.
+						</li>
+						
+					</ul>
+				</section>
+			</article>
+		</main>
+		<footer class="footer">
+			&copy;SCFD 05
+			<a href="contact-us.html" target="_blank">contact us</a>
+			<a href="faq.html" target="_blank">FAQ</a>
+		</footer>
+		<!-- Enable includes 
+		<script src="../fd05-site/scripts/includes.js"></script>
+		<script src="../fd05-site/scripts/myFunction.js"></script>
+		<script src="../fd05-site/scripts/unitFunction.js"></script>
 
-</body>
+		<script>
+			includeHTML();
+		</script>
+		<script>
+			myFunction();
+		</script>
+		<script>
+			unitFunction();
+        </script>-->
+        
+
+        <script>
+                function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                x.className += " responsive";
+                } else {
+                x.className = "topnav";
+                }
+                }
+                </script>
+                
+                <script>
+                        function unitFunction() {
+                          var x = document.getElementById("unitTopnav");
+                          if (x.className === "unittopnav") {
+                            x.className += " responsive";
+                          } else {
+                            x.className = "unittopnav";
+                          }
+                        }
+                        </script>
+	</body>
 </html>
