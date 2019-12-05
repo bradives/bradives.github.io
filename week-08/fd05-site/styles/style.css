@@ -574,7 +574,7 @@ body {
 	}
 
   }
-  @media screen and (min-width: 700px){
+  @media screen and (min-width: 800px){
 	  
 		.topnav {
 			display: flex;
@@ -583,7 +583,7 @@ body {
 	  
   }
 
-/*rigs nav.  added this for ease of access when looking at vehicles*/
+/*rigs nav.  added this for ease of access when looking at vehicles
 nav.main {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -656,7 +656,7 @@ nav.main {
 	  text-align: left;
 	}
   }
-  @media screen and (min-width: 700px){
+  @media screen and (min-width: 800px){
 	.unittopnav {
 		display: flex;
 		justify-content: space-between;
