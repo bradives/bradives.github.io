@@ -415,7 +415,7 @@ header {
 	padding-top: 60px;
 }
 header > h1 {
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-family: "raleway";
 	font-weight: 900;
 }
@@ -426,7 +426,7 @@ header > h1 {
 }*/
 @media only screen and (min-width: 900px) {
 	header > h1 {
-		font-size: 2.7em;
+		font-size: 2.3em;
 	}
 }
 /*all nav styling starts here*/
@@ -573,7 +573,7 @@ body {
 	  text-align: left;
 	}
 
-  }
+  }/*changes to flex over 800 px and the links space out evenly*/
   @media screen and (min-width: 800px){
 	  
 		.topnav {
@@ -583,17 +583,8 @@ body {
 	  
   }
 
-/*rigs nav.  added this for ease of access when looking at vehicles
-nav.main {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-auto-rows: auto;
-  grid-gap: 1em;
-  align-items: center;
-  text-align: center;
-  border-bottom: 4px solid goldenrod;
-  background: #a91413;
-}
+
+
 /*unit nav*/
 .unittopnav {
 	overflow: hidden;
@@ -607,7 +598,7 @@ nav.main {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.7rem;
   }
   .unittopnav a:hover {
 	  background-color: black;
